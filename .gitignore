@@ -1,0 +1,10 @@
+# Archivos multimedia pesados: no van a GitHub (límite 100 MB por archivo)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.mp4
+*.mov
+*.mkv
+05-videos-finales/*
+!05-videos-finales/.gitkeep
