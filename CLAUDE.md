@@ -1,24 +1,29 @@
-# Proyecto: canal YouTube faceless en español
+# Proyecto: canal faceless GTA 6 en español (Shorts + TikTok)
 
-Objetivo: adaptar al mercado hispano el formato de canales faceless de EE.UU. que ya funcionan, para generar visitas e ingresos.
+Objetivo: canal sin cara de Shorts/TikTok sobre GTA 6 para el público hispano, aprovechando el lanzamiento (19-nov-2026), para ganar visitas y suscriptores y monetizar después.
 
 ## Reglas del proyecto
-- No traducir guiones ajenos: copiar formato/estructura/temas, guion propio con varias fuentes (copyright + política "inauthentic content" de YouTube).
-- Cada vídeo debe tener ángulo propio y edición variada (YouTube evalúa el canal entero).
-- Planificar YPP con umbral 2027: 1.000 subs + 8.000 h (o 20M vistas Shorts).
+- Fuente de imagen: gameplay propio > tráileres oficiales de Rockstar. **Nunca** clips de otros youtubers/streamers (copyright + Content ID + reused content).
+- Sin spoilers de historia, finales, recopilaciones de cinemáticas ni leaks (Rockstar los retira).
+- **Sin violencia gráfica en los primeros 7 s** ni en miniaturas (regla de anuncios de YouTube, sept-2026).
+- Cada Short con voz y ángulo propio. Guion para leer en voz alta, 30–60 s.
+- YPP vía Shorts: 1.000 subs + 10M vistas/90 días (20M para nuevos desde 1-feb-2027).
 
 ## Decisiones
 - Mercado: todo el mundo hispano, español neutro.
-- Voz: la de Aitor (grabada) → limpiar con `herramientas/limpiar-voz.sh`. Guiones escritos para leer en voz alta.
-- Presupuesto 0 € al inicio. Tiempo: horas sueltas + finde → 1 vídeo largo/semana + Shorts derivados.
+- Voz: la de Aitor → `herramientas/limpiar-voz.sh`.
+- Presupuesto 0 €. Tiempo: horas sueltas + finde.
+- YouTube y rockstargames.com están bloqueados en el entorno cloud: descargas y render final en el PC de Aitor. Investigación de YouTube vía Firecrawl (gasta créditos).
 
 ## Estructura
-- herramientas/ — scripts (limpiar-voz.sh: ffmpeg, quita ruido, acorta pausas, normaliza a -14 LUFS)
-- 01-investigacion/ — hallazgos, análisis de nicho y canales (ver plan-y-hallazgos.md)
-- 02-referencias-usa/ — datos y transcripciones de canales modelo (solo análisis)
-- 03-guiones/ — guiones en español
-- 04-assets/ — imágenes, audio, miniaturas
+- herramientas/limpiar-voz.sh — limpia la voz (ruido, pausas, -14 LUFS)
+- herramientas/hacer-short.sh — clip 16:9 → vertical 1080x1920 con fondo difuminado, gancho, subtítulos .srt y voz con ducking
+- 01-investigacion/plan-gta6.md — hallazgos, formatos, pipeline
+- 02-referencias/ — canales modelo y vídeos que funcionan
+- 03-guiones/ — plantilla-short.md + guiones
+- 04-assets/ — clips-fuente, audio, miniaturas (multimedia fuera de git)
 - 05-videos-finales/
 
 ## Estado
-- 2026-10-21: directorio creado, investigación inicial hecha, decisiones de fase 0 tomadas, script de voz probado con audio sintético. Pendiente: repo GitHub (lo crea Aitor, Claude no puede crear repos desde esta sesión), prueba con voz real, fase 1 validar nicho.
+- 2026-10-21: arranque como canal faceless genérico (en historial git).
+- 2026-11-16: pivot a GTA 6 Shorts. Investigación hecha, hacer-short.sh probado con vídeo sintético. Pendiente: saber si Aitor tiene consola + juego, nombre del canal, analizar canales modelo, primeros 5 guiones para la semana de lanzamiento.
