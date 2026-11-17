@@ -1,0 +1,38 @@
+{
+  "titulo": "¿Quién es Lucía, la protagonista de GTA 6?",
+  "descripcion": "Lucía Caminos es la primera protagonista mujer de un GTA en 3D. Esto es lo que cuenta Rockstar de ella.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "¿QUIÉN ES LUCÍA?",
+  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "escenas": [
+    {
+      "imagen": "chica-coche.jpg",
+      "texto": "Lucía es la primera protagonista mujer de un Ge te a en tres dé. Pero, ¿quién es?",
+      "subtitulo": "Lucía es la primera protagonista mujer de un GTA en 3D. Pero, ¿quién es?"
+    },
+    {
+      "imagen": "piscina-aerea.jpg",
+      "texto": "Se llama Lucía Caminos. Su padre le enseñó a pelear en cuanto aprendió a andar.",
+      "subtitulo": "Se llama Lucía Caminos. Su padre le enseñó a pelear en cuanto aprendió a andar."
+    },
+    {
+      "imagen": "gasolinera.jpg",
+      "texto": "Pelear por su familia la llevó a la cárcel de Leonida. Y salió de pura suerte.",
+      "subtitulo": "Pelear por su familia la llevó a la cárcel de Leonida. Y salió de pura suerte."
+    },
+    {
+      "imagen": "vice-city-noche.jpg",
+      "texto": "Ahora tiene un plan, y no va a dejar que nada la pare.",
+      "subtitulo": "Ahora tiene un plan, y no va a dejar que nada la pare."
+    },
+    {
+      "imagen": "lucia.jpg",
+      "texto": "Y según Rockstar, una vida con Yeison podría ser su salida.",
+      "subtitulo": "Y según Rockstar, una vida con Jason podría ser su salida."
+    },
+    {
+      "imagen": "coche-pareja.jpg",
+      "texto": "¿Vas a jugar más con Lucía o con Yeison? Te leo en comentarios.",
+      "subtitulo": "¿Vas a jugar más con Lucía o con Yeison? Te leo en comentarios."
+    }
+  ]
+}

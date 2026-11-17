@@ -1,0 +1,38 @@
+{
+  "titulo": "¿Quién es Jason, el protagonista de GTA 6?",
+  "descripcion": "Jason Duval es uno de los dos protagonistas de GTA 6. Esto es lo que cuenta Rockstar de él.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "¿QUIÉN ES JASON?",
+  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "escenas": [
+    {
+      "imagen": "atardecer-leonida.jpg",
+      "texto": "Este es uno de los dos protagonistas de Ge te a seis. Y su historia no es nada fácil.",
+      "subtitulo": "Este es uno de los dos protagonistas de GTA 6. Y su historia no es nada fácil."
+    },
+    {
+      "imagen": "gasolinera.jpg",
+      "texto": "Se llama Yeison Duval. Creció rodeado de estafadores y delincuentes.",
+      "subtitulo": "Se llama Jason Duval. Creció rodeado de estafadores y delincuentes."
+    },
+    {
+      "imagen": "vice-city-noche.jpg",
+      "texto": "Para dejar atrás una adolescencia complicada, se alistó en el ejército.",
+      "subtitulo": "Para dejar atrás una adolescencia complicada, se alistó en el ejército."
+    },
+    {
+      "imagen": "fondo-marino.jpg",
+      "texto": "Pero acabó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona.",
+      "subtitulo": "Pero acabó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona."
+    },
+    {
+      "imagen": "lucia.jpg",
+      "texto": "Hasta que conoce a Lucía. Según Rockstar, puede ser lo mejor o lo peor que le ha pasado.",
+      "subtitulo": "Hasta que conoce a Lucía. Según Rockstar, puede ser lo mejor o lo peor que le ha pasado."
+    },
+    {
+      "imagen": "coche-pareja.jpg",
+      "texto": "¿Te cae bien Yeison o prefieres a Lucía? Te leo en comentarios.",
+      "subtitulo": "¿Te cae bien Yeison o prefieres a Lucía? Te leo en comentarios."
+    }
+  ]
+}

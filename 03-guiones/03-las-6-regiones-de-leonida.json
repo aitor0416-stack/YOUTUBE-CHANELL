@@ -1,0 +1,48 @@
+{
+  "titulo": "Las 6 regiones de Leonida en GTA 6",
+  "descripcion": "Rockstar ha confirmado 6 regiones en Leonida, la versión de Florida de GTA 6.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "6 ZONAS DEL MAPA",
+  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "escenas": [
+    {
+      "imagen": "vice-city-noche.jpg",
+      "texto": "Ge te a seis tiene seis regiones confirmadas. Te las enseño en treinta segundos.",
+      "subtitulo": "GTA 6 tiene 6 regiones confirmadas. Te las enseño en 30 segundos."
+    },
+    {
+      "imagen": "piscina-aerea.jpg",
+      "texto": "Uno. Vais Siti, la versión de Miami: playa, neón y fiesta.",
+      "subtitulo": "1. Vice City, la versión de Miami: playa, neón y fiesta."
+    },
+    {
+      "imagen": "fondo-marino.jpg",
+      "texto": "Dos. Los Cayos de Leonida, islas tropicales y barcos. Ahí empieza Yeison.",
+      "subtitulo": "2. Leonida Keys, islas tropicales y barcos. Ahí empieza Jason."
+    },
+    {
+      "imagen": "perro.jpg",
+      "texto": "Tres. Grasrivers, los pantanos, con caimanes, inspirados en los Everglades.",
+      "subtitulo": "3. Grassrivers, los pantanos, con caimanes, inspirados en los Everglades."
+    },
+    {
+      "imagen": "gasolinera.jpg",
+      "texto": "Cuatro. Port Guélhorn, la costa olvidada: moteles baratos y atracciones cerradas.",
+      "subtitulo": "4. Port Gellhorn, la costa olvidada: moteles baratos y atracciones cerradas."
+    },
+    {
+      "imagen": "tatuado.jpg",
+      "texto": "Cinco. Ambrosía, zona industrial, con una refinería de azúcar y bandas de moteros.",
+      "subtitulo": "5. Ambrosia, zona industrial, con una refinería de azúcar y bandas de moteros."
+    },
+    {
+      "imagen": "atardecer-leonida.jpg",
+      "texto": "Y seis. El parque nacional Mount Kalaga, en el norte, para cazar, pescar y conducir fuera de carretera.",
+      "subtitulo": "6. Mount Kalaga, parque nacional en el norte: caza, pesca y off-road."
+    },
+    {
+      "imagen": "coche-pareja.jpg",
+      "texto": "¿Cuál vas a explorar primero? Te leo en comentarios.",
+      "subtitulo": "¿Cuál vas a explorar primero? Te leo en comentarios."
+    }
+  ]
+}

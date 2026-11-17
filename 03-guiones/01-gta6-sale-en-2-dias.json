@@ -1,0 +1,43 @@
+{
+  "titulo": "GTA 6 sale en 2 días: 5 cosas que tienes que saber",
+  "descripcion": "GTA 6 sale el 19 de noviembre. Esto es lo que tienes que saber antes de jugar: fecha y hora, plataformas, cuánto ocupa, dónde transcurre y quién es Lucía.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "GTA 6 SALE EN 2 DÍAS",
+  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "escenas": [
+    {
+      "imagen": "vice-city-noche.jpg",
+      "texto": "Ge te a seis sale en dos días. Esto es lo que tienes que saber.",
+      "subtitulo": "GTA 6 sale en 2 días. Esto es lo que tienes que saber."
+    },
+    {
+      "imagen": "atardecer-leonida.jpg",
+      "texto": "Uno. Sale el diecinueve de noviembre, a medianoche en tu hora local, en Pléisteishon cinco y Equisbox Series. En pecé, todavía no hay fecha.",
+      "subtitulo": "1. Sale el 19 de noviembre, a medianoche en tu hora local, en PS5 y Xbox Series. En PC, todavía no hay fecha."
+    },
+    {
+      "imagen": "gasolinera.jpg",
+      "texto": "Dos. Ocupa hasta doscientos doce gigas. Si no lo has precargado, ve haciendo espacio.",
+      "subtitulo": "2. Ocupa hasta 212 GB. Si no lo has precargado, ve haciendo espacio."
+    },
+    {
+      "imagen": "piscina-aerea.jpg",
+      "texto": "Tres. Vuelve Vais Siti, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
+      "subtitulo": "3. Vuelve Vice City, la versión de Miami, dentro de Leonida, un estado inspirado en Florida."
+    },
+    {
+      "imagen": "lucia.jpg",
+      "texto": "Cuatro. Lucía es la primera protagonista mujer de un Ge te a en tres dé. Y comparte la historia con Yeison.",
+      "subtitulo": "4. Lucía es la primera protagonista mujer de un GTA en 3D. Y comparte la historia con Jason."
+    },
+    {
+      "imagen": "fondo-marino.jpg",
+      "texto": "Cinco. Su primer tráiler batió el récord de visualizaciones en veinticuatro horas para el anuncio de un videojuego en Iutub.",
+      "subtitulo": "5. Su primer tráiler batió el récord de visualizaciones en 24 horas para el anuncio de un videojuego en YouTube."
+    },
+    {
+      "imagen": "coche-pareja.jpg",
+      "texto": "¿Lo vas a jugar el primer día? Te leo en comentarios.",
+      "subtitulo": "¿Lo vas a jugar el primer día? Te leo en comentarios."
+    }
+  ]
+}

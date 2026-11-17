@@ -1,0 +1,38 @@
+{
+  "titulo": "¿A qué hora sale GTA 6 en tu país?",
+  "descripcion": "GTA 6 se desbloquea a medianoche, país por país. Te contamos quién juega primero.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "¿A QUÉ HORA SALE?",
+  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "escenas": [
+    {
+      "imagen": "vice-city-noche.jpg",
+      "texto": "¿A qué hora puedes jugar Ge te a seis? Depende de dónde vivas.",
+      "subtitulo": "¿A qué hora puedes jugar GTA 6? Depende de dónde vivas."
+    },
+    {
+      "imagen": "atardecer-leonida.jpg",
+      "texto": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda.",
+      "subtitulo": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda."
+    },
+    {
+      "imagen": "piscina-aerea.jpg",
+      "texto": "En España, a las doce de la noche del diecinueve de noviembre.",
+      "subtitulo": "En España, a las 00:00 del 19 de noviembre."
+    },
+    {
+      "imagen": "chica-coche.jpg",
+      "texto": "En Argentina, Chile y Uruguay, también a medianoche de su hora local.",
+      "subtitulo": "En Argentina, Chile y Uruguay, también a medianoche de su hora local."
+    },
+    {
+      "imagen": "gasolinera.jpg",
+      "texto": "Y en México y Centroamérica, a medianoche… unas diecinueve horas después que en Nueva Zelanda.",
+      "subtitulo": "Y en México y Centroamérica, a medianoche… unas 19 horas después que en Nueva Zelanda."
+    },
+    {
+      "imagen": "coche-pareja.jpg",
+      "texto": "¿Desde qué país lo vas a jugar? Te leo en comentarios.",
+      "subtitulo": "¿Desde qué país lo vas a jugar? Te leo en comentarios."
+    }
+  ]
+}
