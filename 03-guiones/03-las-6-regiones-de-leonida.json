@@ -1,83 +1,73 @@
 {
-  "titulo": "Las 6 regiones de Leonida en GTA 6",
-  "descripcion": "Rockstar ha confirmado 6 regiones en Leonida, la versión de Florida de GTA 6.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "LAS 6 ZONAS DEL MAPA",
+  "titulo": "GTA 6 NO es solo Vice City: las 6 zonas del mapa 🗺️",
+  "gancho": "NO ES SOLO VICE CITY",
+  "descripcion": "Leonida tiene 6 zonas confirmadas por Rockstar: de Vice City a los pantanos 🐊\n¿Cuál vas a explorar primero? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 3,
   "escenas": [
     {
-      "texto": "Ge te a seis tiene seis regiones confirmadas. Te las enseño en treinta segundos.",
-      "subtitulo": "GTA 6 tiene 6 regiones confirmadas. Te las enseño en 30 segundos.",
+      "texto": "Deja de pensar que Ge te a seis es solo Vais Siti. Tiene seis zonas.",
+      "subtitulo": "Deja de pensar que GTA 6 es solo Vice City. Tiene 6 zonas.",
       "planos": [
-        "A17",
-        "A15",
         "A06",
+        "A15",
+        "B35"
+      ]
+    },
+    {
+      "texto": "Vais Siti, la versión de Miami.",
+      "subtitulo": "Vice City, la versión de Miami.",
+      "planos": [
+        "A13",
         "A12"
       ]
     },
     {
-      "texto": "Uno. Vais Siti, la versión de Miami: playa, neón y fiesta.",
-      "subtitulo": "1. Vice City, la versión de Miami: playa, neón y fiesta.",
-      "planos": [
-        "A13",
-        "A07",
-        "A12"
-      ],
-      "etiqueta": "1. Vice City"
-    },
-    {
-      "texto": "Dos. Los Cayos de Leonida, islas tropicales y barcos. Ahí empieza Yeison.",
-      "subtitulo": "2. Leonida Keys, islas tropicales y barcos. Ahí empieza Jason.",
+      "texto": "Los Cayos de Leonida, islas y barcos. Ahí empieza Yeison.",
+      "subtitulo": "Los Cayos de Leonida, islas y barcos. Ahí empieza Jason.",
       "planos": [
         "L01",
         "L05",
         "B37"
-      ],
-      "etiqueta": "2. Leonida Keys"
+      ]
     },
     {
-      "texto": "Tres. Grasrivers, los pantanos, con caimanes, inspirados en los Everglades.",
-      "subtitulo": "3. Grassrivers, los pantanos, con caimanes, inspirados en los Everglades.",
+      "texto": "Grasrivers, pantanos con caimanes, como los Everglades.",
+      "subtitulo": "Grassrivers, pantanos con caimanes, como los Everglades.",
       "planos": [
         "A06",
-        "B35",
-        "A28"
-      ],
-      "etiqueta": "3. Grassrivers"
+        "B35"
+      ]
     },
     {
-      "texto": "Cuatro. Port Guélhorn, la costa olvidada: moteles baratos y atracciones cerradas.",
-      "subtitulo": "4. Port Gellhorn, la costa olvidada: moteles baratos y atracciones cerradas.",
+      "texto": "Port Guélhorn, la costa olvidada, con moteles baratos.",
+      "subtitulo": "Port Gellhorn, la costa olvidada, con moteles baratos.",
       "planos": [
         "A35",
         "B09"
-      ],
-      "etiqueta": "4. Port Gellhorn"
+      ]
     },
     {
-      "texto": "Cinco. Ambrosía, zona industrial, con una refinería de azúcar y bandas de moteros.",
-      "subtitulo": "5. Ambrosia, zona industrial, con una refinería de azúcar y bandas de moteros.",
+      "texto": "Ambrosía, zona industrial, con refinería de azúcar y moteros.",
+      "subtitulo": "Ambrosia, zona industrial, con refinería de azúcar y moteros.",
       "planos": [
         "B05",
         "B02"
-      ],
-      "etiqueta": "5. Ambrosia"
+      ]
     },
     {
-      "texto": "Y seis. El parque nacional Mount Kalaga, en el norte, para cazar, pescar y conducir fuera de carretera.",
-      "subtitulo": "6. Mount Kalaga, parque nacional en el norte: caza, pesca y off-road.",
+      "texto": "Y Mount Kalaga, un parque nacional para cazar y pescar.",
+      "subtitulo": "Y Mount Kalaga, un parque nacional para cazar y pescar.",
       "planos": [
         "B20",
         "B03"
-      ],
-      "etiqueta": "6. Mount Kalaga"
+      ]
     },
     {
-      "texto": "¿Cuál vas a explorar primero? Te leo en comentarios.",
-      "subtitulo": "¿Cuál vas a explorar primero? Te leo en comentarios.",
+      "texto": "¿Cuál exploras primero?",
+      "subtitulo": "¿Cuál exploras primero?",
       "planos": [
-        "A12",
         "L20"
       ]
     }
-  ],
-  "semilla_musica": 3
+  ]
 }

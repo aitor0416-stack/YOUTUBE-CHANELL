@@ -6,12 +6,17 @@ Objetivo: canal sin cara de Shorts/TikTok sobre GTA 6 para el público hispano, 
 - Fuente de imagen: gameplay propio > tráileres oficiales de Rockstar. **Nunca** clips de otros youtubers/streamers (copyright + Content ID + reused content).
 - Sin spoilers de historia, finales, recopilaciones de cinemáticas ni leaks (Rockstar los retira).
 - **Sin violencia gráfica en los primeros 7 s** ni en miniaturas (regla de anuncios de YouTube, sept-2026).
-- Cada Short con voz y ángulo propio. Guion para leer en voz alta, 30–60 s.
+- Cada Short con voz y ángulo propio. Guion para leer en voz alta, 20–35 s.
+- **Gancho hablado en el segundo 0** = el título dicho en voz alta. Fórmulas probadas en `03-guiones/plantilla-short.md` (contraria, comparación con GTA 5, ventaja, lista con urgencia, aviso, ángulo hispano). Análisis en `02-referencias/analisis-virales.md`.
+- **En pantalla solo subtítulos abajo** (1–2 palabras, clave en amarillo, pop). Nada de rótulos arriba ni barras (petición de Aitor 17-nov).
+- Cada guion JSON lleva `titulo` (≤60 car., gancho + "GTA 6" + 1 emoji), `descripcion` (gancho, pregunta 👇, créditos, 4–5 hashtags).
+- Verificar sincronía con `herramientas/verificar-sync.py` y revisar en navegador (Playwright) antes de entregar.
 - YPP vía Shorts: 1.000 subs + 10M vistas/90 días (20M para nuevos desde 1-feb-2027).
 
 ## Decisiones
 - Mercado: todo el mundo hispano, español neutro.
-- Voz: sintética (Coqui, voz masculina de España) desde 17-nov por petición de Aitor. Opción alternativa: su voz → `herramientas/limpiar-voz.sh`.
+- Voz: sintética Kokoro (`em_santa`, modelo Apache-2.0 desde GitHub thewh1teagle/kokoro-onnx releases model-files-v1.0) por defecto; Coqui css10 como alternativa (VOZ_MOTOR=coqui). Opción: su voz → `herramientas/limpiar-voz.sh`, o su timbre vía FreeVC.
+- Playwright MCP: necesita `ln -sf /opt/pw-browsers/chromium-1194/chrome-linux/chrome /opt/google/chrome/chrome` (no persiste entre sesiones).
 - Presupuesto 0 €. Tiempo: horas sueltas + finde.
 - YouTube y rockstargames.com están bloqueados en el entorno cloud: descargas y render final en el PC de Aitor. Investigación de YouTube vía Firecrawl (gasta créditos).
 

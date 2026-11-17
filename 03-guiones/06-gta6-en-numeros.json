@@ -1,11 +1,12 @@
 {
-  "titulo": "GTA 6 en números: 5 datos que impresionan",
-  "descripcion": "Los números de GTA 6: años de espera, tamaño, precio, regiones y retrasos.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "GTA 6 EN NÚMEROS",
+  "titulo": "13 años esperando GTA 6… y estos son sus números 🤯",
+  "gancho": "13 AÑOS ESPERANDO",
+  "descripcion": "GTA 5 salió en septiembre de 2013. Esto es GTA 6 en números 🌴\n¿Ha valido la pena esperar? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 6,
   "escenas": [
     {
-      "texto": "Ge te a seis en cinco números.",
-      "subtitulo": "GTA 6 en 5 números.",
+      "texto": "Trece años esperando Ge te a seis. Y estos son sus números.",
+      "subtitulo": "13 años esperando GTA 6. Y estos son sus números.",
       "planos": [
         "A17",
         "A12",
@@ -13,59 +14,53 @@
       ]
     },
     {
-      "texto": "Trece. Son los años que han pasado desde Ge te a cinco, que salió en septiembre de dos mil trece.",
-      "subtitulo": "13. Los años desde GTA 5, que salió en septiembre de 2013.",
-      "planos": [
-        "A01",
-        "A12"
-      ],
-      "etiqueta": "13 años"
-    },
-    {
-      "texto": "Doscientos doce. Los gigas que puede ocupar en tu consola.",
-      "subtitulo": "212. Los GB que puede ocupar en tu consola.",
+      "texto": "Doscientos doce gigas de descarga.",
+      "subtitulo": "212 GB de descarga.",
       "planos": [
         "A10",
         "B08"
-      ],
-      "etiqueta": "212 GB"
+      ]
     },
     {
-      "texto": "Setenta y nueve con noventa y nueve. Los dólares que cuesta la edición estándar en Estados Unidos.",
-      "subtitulo": "79,99. Los dólares que cuesta la edición estándar en EE.UU.",
+      "texto": "Setenta y nueve con noventa y nueve dólares la edición estándar en Estados Unidos.",
+      "subtitulo": "79,99 dólares la edición estándar en Estados Unidos.",
       "planos": [
         "A13",
         "A16"
-      ],
-      "etiqueta": "79,99 $"
+      ]
     },
     {
-      "texto": "Seis. Las regiones de Leonida, desde Vais Siti hasta los pantanos.",
-      "subtitulo": "6. Las regiones de Leonida, de Vice City a los pantanos.",
+      "texto": "Seis zonas en el mapa.",
+      "subtitulo": "6 zonas en el mapa.",
       "planos": [
         "A06",
         "L05",
         "A07"
-      ],
-      "etiqueta": "6 regiones"
+      ]
     },
     {
-      "texto": "Y dos. Los retrasos: primero de dos mil veinticinco a mayo de dos mil veintiséis, y luego a noviembre.",
-      "subtitulo": "2. Los retrasos: de 2025 a mayo de 2026, y luego a noviembre.",
+      "texto": "Dos protagonistas.",
+      "subtitulo": "2 protagonistas.",
+      "planos": [
+        "L08",
+        "L25"
+      ]
+    },
+    {
+      "texto": "Y dos retrasos hasta llegar al diecinueve de noviembre.",
+      "subtitulo": "Y 2 retrasos hasta llegar al 19 de noviembre.",
       "planos": [
         "B20",
         "L20"
-      ],
-      "etiqueta": "2 retrasos"
+      ]
     },
     {
-      "texto": "¿Cuál de estos números te ha sorprendido más? Te leo en comentarios.",
-      "subtitulo": "¿Cuál de estos números te ha sorprendido más? Te leo en comentarios.",
+      "texto": "¿Ha valido la pena esperar?",
+      "subtitulo": "¿Ha valido la pena esperar?",
       "planos": [
         "A12",
         "A17"
       ]
     }
-  ],
-  "semilla_musica": 6
+  ]
 }

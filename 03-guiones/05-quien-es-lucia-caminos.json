@@ -1,61 +1,56 @@
 {
-  "titulo": "¿Quién es Lucía, la protagonista de GTA 6?",
-  "descripcion": "Lucía Caminos es la primera protagonista mujer de un GTA en 3D. Esto es lo que cuenta Rockstar de ella.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "¿QUIÉN ES LUCÍA?",
+  "titulo": "Lucía de GTA 6 acaba de salir de la CÁRCEL… 😳",
+  "gancho": "SALE DE LA CÁRCEL",
+  "descripcion": "La historia de Lucía Caminos según Rockstar: la primera protagonista mujer de un GTA en 3D 🔥\n¿La vas a jugar con Lucía o con Jason? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 5,
   "escenas": [
     {
-      "texto": "Lucía es la primera protagonista mujer de un Ge te a en tres dé. Pero, ¿quién es?",
-      "subtitulo": "Lucía es la primera protagonista mujer de un GTA en 3D. Pero, ¿quién es?",
+      "texto": "Lucía, la protagonista de Ge te a seis, acaba de salir de la cárcel.",
+      "subtitulo": "Lucía, la protagonista de GTA 6, acaba de salir de la cárcel.",
       "planos": [
-        "A32",
-        "L08"
+        "A04",
+        "A02"
       ]
     },
     {
-      "texto": "Se llama Lucía Caminos. Su padre le enseñó a pelear en cuanto aprendió a andar.",
-      "subtitulo": "Se llama Lucía Caminos. Su padre le enseñó a pelear en cuanto aprendió a andar.",
+      "texto": "Su padre le enseñó a pelear en cuanto aprendió a andar.",
+      "subtitulo": "Su padre le enseñó a pelear en cuanto aprendió a andar.",
       "planos": [
         "A03",
         "B15"
-      ],
-      "etiqueta": "Lucía Caminos"
+      ]
     },
     {
       "texto": "Pelear por su familia la llevó a la cárcel de Leonida. Y salió de pura suerte.",
       "subtitulo": "Pelear por su familia la llevó a la cárcel de Leonida. Y salió de pura suerte.",
       "planos": [
-        "A02",
         "B12",
         "A04"
-      ],
-      "etiqueta": "La cárcel"
+      ]
     },
     {
-      "texto": "Ahora tiene un plan, y no va a dejar que nada la pare.",
-      "subtitulo": "Ahora tiene un plan, y no va a dejar que nada la pare.",
+      "texto": "Ahora tiene un plan, y nada la va a parar.",
+      "subtitulo": "Ahora tiene un plan, y nada la va a parar.",
       "planos": [
-        "L16",
-        "A32"
-      ],
-      "etiqueta": "Su plan"
+        "A32",
+        "L16"
+      ]
     },
     {
-      "texto": "Y según Rockstar, una vida con Yeison podría ser su salida.",
-      "subtitulo": "Y según Rockstar, una vida con Jason podría ser su salida.",
+      "texto": "Y su salida, según Rockstar, podría ser una vida con Yeison.",
+      "subtitulo": "Y su salida, según Rockstar, podría ser una vida con Jason.",
       "planos": [
         "L25",
         "B23"
-      ],
-      "etiqueta": "Jason"
+      ]
     },
     {
-      "texto": "¿Vas a jugar más con Lucía o con Yeison? Te leo en comentarios.",
-      "subtitulo": "¿Vas a jugar más con Lucía o con Yeison? Te leo en comentarios.",
+      "texto": "¿La juegas con Lucía o con Yeison?",
+      "subtitulo": "¿La juegas con Lucía o con Jason?",
       "planos": [
         "B18",
         "L08"
       ]
     }
-  ],
-  "semilla_musica": 5
+  ]
 }

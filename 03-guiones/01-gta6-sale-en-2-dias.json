@@ -1,33 +1,30 @@
 {
-  "titulo": "GTA 6 sale en 2 días: 5 cosas que tienes que saber",
-  "descripcion": "GTA 6 sale el 19 de noviembre. Esto es lo que tienes que saber antes de jugar: fecha y hora, plataformas, cuánto ocupa, dónde transcurre y quién es Lucía.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "GTA 6 SALE EN 2 DÍAS",
+  "titulo": "5 cosas que DEBES saber antes de jugar GTA 6 🤯",
+  "gancho": "5 COSAS ANTES DE JUGAR",
+  "descripcion": "Todo lo que tienes que saber antes de jugar GTA 6 el 19 de noviembre 🌴\n¿Lo vas a jugar el primer día? Te leo 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 1,
   "escenas": [
     {
-      "texto": "Ge te a seis sale en dos días. Y esto es lo que tienes que saber.",
-      "subtitulo": "GTA 6 sale en 2 días. Y esto es lo que tienes que saber.",
+      "texto": "Cinco cosas que tienes que saber antes de jugar Ge te a seis.",
+      "subtitulo": "Cinco cosas que tienes que saber antes de jugar GTA 6.",
       "planos": [
-        "A17",
-        "A12",
         "A13",
+        "A16",
         "A15"
       ]
     },
     {
-      "etiqueta": "1. Fecha",
-      "texto": "Sale el diecinueve de noviembre, a medianoche en tu país, en Pléisteishon cinco y Equisbox Series. En pecé, aún no hay fecha.",
-      "subtitulo": "Sale el 19 de noviembre, a medianoche en tu país, en PS5 y Xbox Series. En PC, aún no hay fecha.",
+      "texto": "Uno. Sale el diecinueve a medianoche, en Pléisteishon cinco y Equisbox. En pecé, todavía nada.",
+      "subtitulo": "1. Sale el 19 a medianoche, en PS5 y Xbox. En PC, todavía nada.",
       "planos": [
         "A01",
         "B08",
-        "L15",
-        "A12"
+        "L15"
       ]
     },
     {
-      "etiqueta": "2. Tamaño",
-      "texto": "Ocupa hasta doscientos doce gigas. Si no lo has precargado, ve haciendo hueco.",
-      "subtitulo": "Ocupa hasta 212 GB. Si no lo has precargado, ve haciendo hueco.",
+      "texto": "Dos. Ocupa hasta doscientos doce gigas. Ve haciendo hueco ya.",
+      "subtitulo": "2. Ocupa hasta 212 GB. Ve haciendo hueco ya.",
       "planos": [
         "A10",
         "B02",
@@ -35,31 +32,26 @@
       ]
     },
     {
-      "etiqueta": "3. Vice City",
-      "texto": "Vuelve Vais Siti, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
-      "subtitulo": "Vuelve Vice City, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
+      "texto": "Tres. Vuelve Vais Siti, la versión de Miami, en un estado inspirado en Florida.",
+      "subtitulo": "3. Vuelve Vice City, la versión de Miami, en un estado inspirado en Florida.",
       "planos": [
         "A07",
         "A16",
-        "B31",
-        "A06"
+        "B31"
       ]
     },
     {
-      "etiqueta": "4. Lucía",
-      "texto": "Lucía es la primera protagonista mujer de un Ge te a en tres dé. Y comparte la historia con Yeison.",
-      "subtitulo": "Lucía es la primera protagonista mujer de un GTA en 3D. Y comparte la historia con Jason.",
+      "texto": "Cuatro. Lucía es la primera protagonista mujer de un Ge te a en tres dé.",
+      "subtitulo": "4. Lucía es la primera protagonista mujer de un GTA en 3D.",
       "planos": [
         "A04",
         "A03",
-        "L08",
-        "L25"
+        "L08"
       ]
     },
     {
-      "etiqueta": "5. Récord",
-      "texto": "Su primer tráiler batió el récord de visualizaciones en veinticuatro horas para el anuncio de un videojuego en Iutub.",
-      "subtitulo": "Su primer tráiler batió el récord de visualizaciones en 24 horas para el anuncio de un videojuego en YouTube.",
+      "texto": "Y cinco. Su primer tráiler batió el récord de visitas en veinticuatro horas para un anuncio de videojuego en Iutub.",
+      "subtitulo": "Y 5. Su primer tráiler batió el récord de visitas en 24 horas para un anuncio de videojuego en YouTube.",
       "planos": [
         "A08",
         "B37",
@@ -67,13 +59,12 @@
       ]
     },
     {
-      "texto": "¿Lo vas a jugar el primer día? Te leo en comentarios.",
-      "subtitulo": "¿Lo vas a jugar el primer día? Te leo en comentarios.",
+      "texto": "¿Lo juegas el primer día? Te leo.",
+      "subtitulo": "¿Lo juegas el primer día? Te leo.",
       "planos": [
         "A12",
         "L20"
       ]
     }
-  ],
-  "semilla_musica": 1
+  ]
 }

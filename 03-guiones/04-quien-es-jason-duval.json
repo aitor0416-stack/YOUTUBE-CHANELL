@@ -1,62 +1,57 @@
 {
-  "titulo": "¿Quién es Jason, el protagonista de GTA 6?",
-  "descripcion": "Jason Duval es uno de los dos protagonistas de GTA 6. Esto es lo que cuenta Rockstar de él.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "¿QUIÉN ES JASON?",
+  "titulo": "Jason de GTA 6 trabajaba para traficantes 😳",
+  "gancho": "SU PASADO",
+  "descripcion": "Esto es lo que cuenta Rockstar de Jason Duval, el protagonista de GTA 6 👀\n¿Equipo Jason o equipo Lucía? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 4,
   "escenas": [
     {
-      "texto": "Este es uno de los dos protagonistas de Ge te a seis. Y su historia no es nada fácil.",
-      "subtitulo": "Este es uno de los dos protagonistas de GTA 6. Y su historia no es nada fácil.",
+      "texto": "Yeison, el protagonista de Ge te a seis, trabajaba para traficantes.",
+      "subtitulo": "Jason, el protagonista de GTA 6, trabajaba para traficantes.",
       "planos": [
         "L04",
         "L02"
       ]
     },
     {
-      "texto": "Se llama Yeison Duval. Creció rodeado de estafadores y delincuentes.",
-      "subtitulo": "Se llama Jason Duval. Creció rodeado de estafadores y delincuentes.",
+      "texto": "Creció rodeado de estafadores y delincuentes.",
+      "subtitulo": "Creció rodeado de estafadores y delincuentes.",
       "planos": [
         "L03",
         "L19"
-      ],
-      "etiqueta": "Jason Duval"
+      ]
     },
     {
-      "texto": "Para dejar atrás una adolescencia complicada, se alistó en el ejército.",
-      "subtitulo": "Para dejar atrás una adolescencia complicada, se alistó en el ejército.",
+      "texto": "Se metió en el ejército para cambiar de vida.",
+      "subtitulo": "Se metió en el ejército para cambiar de vida.",
       "planos": [
         "L15",
         "B08"
-      ],
-      "etiqueta": "El ejército"
+      ]
     },
     {
-      "texto": "Pero acabó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona.",
-      "subtitulo": "Pero acabó en los Cayos, haciendo lo que mejor sabe: trabajar para traficantes de la zona.",
+      "texto": "Pero acabó en los Cayos, haciendo lo que mejor sabe.",
+      "subtitulo": "Pero acabó en los Cayos, haciendo lo que mejor sabe.",
       "planos": [
         "L01",
-        "L03",
         "L05"
-      ],
-      "etiqueta": "Los Cayos"
+      ]
     },
     {
-      "texto": "Hasta que conoce a Lucía. Según Rockstar, puede ser lo mejor o lo peor que le ha pasado.",
-      "subtitulo": "Hasta que conoce a Lucía. Según Rockstar, puede ser lo mejor o lo peor que le ha pasado.",
+      "texto": "Hasta que conoce a Lucía. Y según Rockstar, puede ser lo mejor, o lo peor, que le ha pasado.",
+      "subtitulo": "Hasta que conoce a Lucía. Y según Rockstar, puede ser lo mejor, o lo peor, que le ha pasado.",
       "planos": [
         "L08",
         "L16",
         "L25"
-      ],
-      "etiqueta": "Lucía"
+      ]
     },
     {
-      "texto": "¿Te cae bien Yeison o prefieres a Lucía? Te leo en comentarios.",
-      "subtitulo": "¿Te cae bien Yeison o prefieres a Lucía? Te leo en comentarios.",
+      "texto": "¿Equipo Yeison o equipo Lucía?",
+      "subtitulo": "¿Equipo Jason o equipo Lucía?",
       "planos": [
         "B18",
         "B23"
       ]
     }
-  ],
-  "semilla_musica": 4
+  ]
 }

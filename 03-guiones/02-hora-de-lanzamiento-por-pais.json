@@ -1,26 +1,25 @@
 {
-  "titulo": "¿A qué hora sale GTA 6 en tu país?",
-  "descripcion": "GTA 6 se desbloquea a medianoche, país por país. Te contamos quién juega primero.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "¿A QUÉ HORA SALE GTA 6?",
+  "titulo": "Nueva Zelanda jugará GTA 6 19 horas antes que México 😳",
+  "gancho": "19 HORAS ANTES",
+  "descripcion": "GTA 6 se desbloquea a medianoche, país por país, y el primero es Nueva Zelanda 🇳🇿\n¿Desde qué país lo vas a jugar? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "semilla_musica": 2,
   "escenas": [
     {
-      "texto": "¿A qué hora puedes jugar Ge te a seis? Depende de dónde vivas.",
-      "subtitulo": "¿A qué hora puedes jugar GTA 6? Depende de dónde vivas.",
+      "texto": "Nueva Zelanda va a jugar Ge te a seis diecinueve horas antes que México.",
+      "subtitulo": "Nueva Zelanda va a jugar GTA 6 19 horas antes que México.",
       "planos": [
-        "A17",
-        "A12",
-        "A13"
+        "B37",
+        "A01",
+        "A12"
       ]
     },
     {
-      "texto": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda.",
-      "subtitulo": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda.",
+      "texto": "Rockstar lo desbloquea a medianoche, país por país. Y el primero es Nueva Zelanda.",
+      "subtitulo": "Rockstar lo desbloquea a medianoche, país por país. Y el primero es Nueva Zelanda.",
       "planos": [
         "A01",
-        "A15",
         "B20"
-      ],
-      "etiqueta": "Primero"
+      ]
     },
     {
       "texto": "En España, a las doce de la noche del diecinueve de noviembre.",
@@ -28,8 +27,7 @@
       "planos": [
         "A12",
         "B08"
-      ],
-      "etiqueta": "España"
+      ]
     },
     {
       "texto": "En Argentina, Chile y Uruguay, también a medianoche de su hora local.",
@@ -37,27 +35,23 @@
       "planos": [
         "A07",
         "A10"
-      ],
-      "etiqueta": "Argentina, Chile y Uruguay"
+      ]
     },
     {
-      "texto": "Y en México y Centroamérica, a medianoche, unas diecinueve horas después que en Nueva Zelanda.",
-      "subtitulo": "Y en México y Centroamérica, a medianoche, unas 19 horas después que en Nueva Zelanda.",
+      "texto": "Y México y Centroamérica, a medianoche, pero diecinueve horas después que Nueva Zelanda.",
+      "subtitulo": "Y México y Centroamérica, a medianoche, pero 19 horas después que Nueva Zelanda.",
       "planos": [
         "B31",
         "A13",
         "L15"
-      ],
-      "etiqueta": "México y Centroamérica"
+      ]
     },
     {
-      "texto": "¿Desde qué país lo vas a jugar? Te leo en comentarios.",
-      "subtitulo": "¿Desde qué país lo vas a jugar? Te leo en comentarios.",
+      "texto": "¿Desde qué país lo juegas tú?",
+      "subtitulo": "¿Desde qué país lo juegas tú?",
       "planos": [
-        "A12",
         "L20"
       ]
     }
-  ],
-  "semilla_musica": 2
+  ]
 }

@@ -33,3 +33,20 @@ if [[ "${CON_FREEVC:-0}" == "1" ]]; then
   export FREEVC_DIR="$F"
   echo "FreeVC listo. Exporta VOZ_REFERENCIA=/ruta/a/tu-voz.wav antes de generar."
 fi
+
+# --- Voz Kokoro (por defecto en generar-short.py; licencia Apache-2.0) ---
+K="$D/kokoro"
+mkdir -p "$K"
+"$D/venv/bin/pip" install -q kokoro-onnx soundfile
+for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+  [[ -f "$K/$f" ]] || curl -sL -o "$K/$f" "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f"
+done
+export KOKORO_DIR="$K"
+echo "Kokoro listo (KOKORO_VOZ=em_santa por defecto; también em_alex, ef_dora)."
+
+# --- Playwright MCP: Chromium donde lo busca, sin sandbox (somos root en el contenedor) ---
+if [[ -x /opt/pw-browsers/chromium-1194/chrome-linux/chrome && ! -x /opt/google/chrome/chrome ]]; then
+  mkdir -p /opt/google/chrome
+  printf '#!/bin/sh\nexec /opt/pw-browsers/chromium-1194/chrome-linux/chrome --no-sandbox "$@"\n' > /opt/google/chrome/chrome
+  chmod +x /opt/google/chrome/chrome
+fi

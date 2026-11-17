@@ -8,3 +8,4 @@
 *.mkv
 05-videos-finales/*
 !05-videos-finales/.gitkeep
+.playwright-mcp/
