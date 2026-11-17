@@ -1,43 +1,79 @@
 {
   "titulo": "GTA 6 sale en 2 días: 5 cosas que tienes que saber",
-  "descripcion": "GTA 6 sale el 19 de noviembre. Esto es lo que tienes que saber antes de jugar: fecha y hora, plataformas, cuánto ocupa, dónde transcurre y quién es Lucía.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "descripcion": "GTA 6 sale el 19 de noviembre. Esto es lo que tienes que saber antes de jugar: fecha y hora, plataformas, cuánto ocupa, dónde transcurre y quién es Lucía.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
   "gancho": "GTA 6 SALE EN 2 DÍAS",
-  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
   "escenas": [
     {
-      "imagen": "vice-city-noche.jpg",
-      "texto": "Ge te a seis sale en dos días. Esto es lo que tienes que saber.",
-      "subtitulo": "GTA 6 sale en 2 días. Esto es lo que tienes que saber."
+      "texto": "Ge te a seis sale en dos días. Y esto es lo que tienes que saber.",
+      "subtitulo": "GTA 6 sale en 2 días. Y esto es lo que tienes que saber.",
+      "planos": [
+        "A17",
+        "A12",
+        "A13",
+        "A15"
+      ]
     },
     {
-      "imagen": "atardecer-leonida.jpg",
-      "texto": "Uno. Sale el diecinueve de noviembre, a medianoche en tu hora local, en Pléisteishon cinco y Equisbox Series. En pecé, todavía no hay fecha.",
-      "subtitulo": "1. Sale el 19 de noviembre, a medianoche en tu hora local, en PS5 y Xbox Series. En PC, todavía no hay fecha."
+      "etiqueta": "1. Fecha",
+      "texto": "Sale el diecinueve de noviembre, a medianoche en tu país, en Pléisteishon cinco y Equisbox Series. En pecé, aún no hay fecha.",
+      "subtitulo": "Sale el 19 de noviembre, a medianoche en tu país, en PS5 y Xbox Series. En PC, aún no hay fecha.",
+      "planos": [
+        "A01",
+        "B08",
+        "L15",
+        "A12"
+      ]
     },
     {
-      "imagen": "gasolinera.jpg",
-      "texto": "Dos. Ocupa hasta doscientos doce gigas. Si no lo has precargado, ve haciendo espacio.",
-      "subtitulo": "2. Ocupa hasta 212 GB. Si no lo has precargado, ve haciendo espacio."
+      "etiqueta": "2. Tamaño",
+      "texto": "Ocupa hasta doscientos doce gigas. Si no lo has precargado, ve haciendo hueco.",
+      "subtitulo": "Ocupa hasta 212 GB. Si no lo has precargado, ve haciendo hueco.",
+      "planos": [
+        "A10",
+        "B02",
+        "A39"
+      ]
     },
     {
-      "imagen": "piscina-aerea.jpg",
-      "texto": "Tres. Vuelve Vais Siti, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
-      "subtitulo": "3. Vuelve Vice City, la versión de Miami, dentro de Leonida, un estado inspirado en Florida."
+      "etiqueta": "3. Vice City",
+      "texto": "Vuelve Vais Siti, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
+      "subtitulo": "Vuelve Vice City, la versión de Miami, dentro de Leonida, un estado inspirado en Florida.",
+      "planos": [
+        "A07",
+        "A16",
+        "B31",
+        "A06"
+      ]
     },
     {
-      "imagen": "lucia.jpg",
-      "texto": "Cuatro. Lucía es la primera protagonista mujer de un Ge te a en tres dé. Y comparte la historia con Yeison.",
-      "subtitulo": "4. Lucía es la primera protagonista mujer de un GTA en 3D. Y comparte la historia con Jason."
+      "etiqueta": "4. Lucía",
+      "texto": "Lucía es la primera protagonista mujer de un Ge te a en tres dé. Y comparte la historia con Yeison.",
+      "subtitulo": "Lucía es la primera protagonista mujer de un GTA en 3D. Y comparte la historia con Jason.",
+      "planos": [
+        "A04",
+        "A03",
+        "L08",
+        "L25"
+      ]
     },
     {
-      "imagen": "fondo-marino.jpg",
-      "texto": "Cinco. Su primer tráiler batió el récord de visualizaciones en veinticuatro horas para el anuncio de un videojuego en Iutub.",
-      "subtitulo": "5. Su primer tráiler batió el récord de visualizaciones en 24 horas para el anuncio de un videojuego en YouTube."
+      "etiqueta": "5. Récord",
+      "texto": "Su primer tráiler batió el récord de visualizaciones en veinticuatro horas para el anuncio de un videojuego en Iutub.",
+      "subtitulo": "Su primer tráiler batió el récord de visualizaciones en 24 horas para el anuncio de un videojuego en YouTube.",
+      "planos": [
+        "A08",
+        "B37",
+        "L05"
+      ]
     },
     {
-      "imagen": "chica-coche.jpg",
       "texto": "¿Lo vas a jugar el primer día? Te leo en comentarios.",
-      "subtitulo": "¿Lo vas a jugar el primer día? Te leo en comentarios."
+      "subtitulo": "¿Lo vas a jugar el primer día? Te leo en comentarios.",
+      "planos": [
+        "A12",
+        "L20"
+      ]
     }
-  ]
+  ],
+  "semilla_musica": 1
 }

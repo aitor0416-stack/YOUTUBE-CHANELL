@@ -1,48 +1,83 @@
 {
   "titulo": "Las 6 regiones de Leonida en GTA 6",
-  "descripcion": "Rockstar ha confirmado 6 regiones en Leonida, la versión de Florida de GTA 6.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "6 ZONAS DEL MAPA",
-  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "descripcion": "Rockstar ha confirmado 6 regiones en Leonida, la versión de Florida de GTA 6.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "LAS 6 ZONAS DEL MAPA",
   "escenas": [
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "Ge te a seis tiene seis regiones confirmadas. Te las enseño en treinta segundos.",
-      "subtitulo": "GTA 6 tiene 6 regiones confirmadas. Te las enseño en 30 segundos."
+      "subtitulo": "GTA 6 tiene 6 regiones confirmadas. Te las enseño en 30 segundos.",
+      "planos": [
+        "A17",
+        "A15",
+        "A06",
+        "A12"
+      ]
     },
     {
-      "imagen": "piscina-aerea.jpg",
       "texto": "Uno. Vais Siti, la versión de Miami: playa, neón y fiesta.",
-      "subtitulo": "1. Vice City, la versión de Miami: playa, neón y fiesta."
+      "subtitulo": "1. Vice City, la versión de Miami: playa, neón y fiesta.",
+      "planos": [
+        "A13",
+        "A07",
+        "A12"
+      ],
+      "etiqueta": "1. Vice City"
     },
     {
-      "imagen": "fondo-marino.jpg",
       "texto": "Dos. Los Cayos de Leonida, islas tropicales y barcos. Ahí empieza Yeison.",
-      "subtitulo": "2. Leonida Keys, islas tropicales y barcos. Ahí empieza Jason."
+      "subtitulo": "2. Leonida Keys, islas tropicales y barcos. Ahí empieza Jason.",
+      "planos": [
+        "L01",
+        "L05",
+        "B37"
+      ],
+      "etiqueta": "2. Leonida Keys"
     },
     {
-      "imagen": "perro.jpg",
       "texto": "Tres. Grasrivers, los pantanos, con caimanes, inspirados en los Everglades.",
-      "subtitulo": "3. Grassrivers, los pantanos, con caimanes, inspirados en los Everglades."
+      "subtitulo": "3. Grassrivers, los pantanos, con caimanes, inspirados en los Everglades.",
+      "planos": [
+        "A06",
+        "B35",
+        "A28"
+      ],
+      "etiqueta": "3. Grassrivers"
     },
     {
-      "imagen": "gasolinera.jpg",
       "texto": "Cuatro. Port Guélhorn, la costa olvidada: moteles baratos y atracciones cerradas.",
-      "subtitulo": "4. Port Gellhorn, la costa olvidada: moteles baratos y atracciones cerradas."
+      "subtitulo": "4. Port Gellhorn, la costa olvidada: moteles baratos y atracciones cerradas.",
+      "planos": [
+        "A35",
+        "B09"
+      ],
+      "etiqueta": "4. Port Gellhorn"
     },
     {
-      "imagen": "tatuado.jpg",
       "texto": "Cinco. Ambrosía, zona industrial, con una refinería de azúcar y bandas de moteros.",
-      "subtitulo": "5. Ambrosia, zona industrial, con una refinería de azúcar y bandas de moteros."
+      "subtitulo": "5. Ambrosia, zona industrial, con una refinería de azúcar y bandas de moteros.",
+      "planos": [
+        "B05",
+        "B02"
+      ],
+      "etiqueta": "5. Ambrosia"
     },
     {
-      "imagen": "atardecer-leonida.jpg",
       "texto": "Y seis. El parque nacional Mount Kalaga, en el norte, para cazar, pescar y conducir fuera de carretera.",
-      "subtitulo": "6. Mount Kalaga, parque nacional en el norte: caza, pesca y off-road."
+      "subtitulo": "6. Mount Kalaga, parque nacional en el norte: caza, pesca y off-road.",
+      "planos": [
+        "B20",
+        "B03"
+      ],
+      "etiqueta": "6. Mount Kalaga"
     },
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "¿Cuál vas a explorar primero? Te leo en comentarios.",
-      "subtitulo": "¿Cuál vas a explorar primero? Te leo en comentarios."
+      "subtitulo": "¿Cuál vas a explorar primero? Te leo en comentarios.",
+      "planos": [
+        "A12",
+        "L20"
+      ]
     }
-  ]
+  ],
+  "semilla_musica": 3
 }

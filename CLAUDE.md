@@ -18,8 +18,13 @@ Objetivo: canal sin cara de Shorts/TikTok sobre GTA 6 para el público hispano, 
 ## Estructura
 - herramientas/limpiar-voz.sh — limpia la voz (ruido, pausas, -14 LUFS)
 - herramientas/hacer-short.sh — clip 16:9 → vertical 1080x1920 con fondo difuminado, gancho, subtítulos .srt y voz con ducking
-- herramientas/generar-short.py — guion JSON (03-guiones/*.json) → Short completo: voz sintética por escena, imágenes con zoom, subtítulos palabra a palabra, gancho, whoosh
-- herramientas/instalar-voz.sh — instala Coqui TTS + modelo es/css10/vits (desde GitHub; HuggingFace está bloqueado). En el JSON, `texto` va escrito "como suena" (Ge te a seis, Vais Siti, Yeison) y `subtitulo` con la grafía correcta
+- herramientas/generar-short.py — guion JSON (03-guiones/*.json) → Short dinámico: voz por escena (+10 % velocidad), planos del tráiler 4K recortados en vertical con zoom (corte cada 1,2 s en el gancho y ~1,8 s después), subtítulos karaoke (palabra activa en amarillo, pop), etiqueta por punto, destello entre puntos, barra de progreso, música propia con ducking, whoosh. Env: COQUI_MODEL_DIR, TRAILERS_DIR, opcional VOZ_REFERENCIA + FREEVC_DIR
+- herramientas/musica.py — base synthwave generada (sin copyright); `semilla_musica` del guion la varía
+- herramientas/instalar-voz.sh — instala Coqui TTS + modelo es/css10/vits (desde GitHub; HuggingFace está bloqueado). Con CON_FREEVC=1 instala también FreeVC+WavLM para convertir la voz al timbre de Aitor (probado: funciona). En el JSON, `texto` va escrito "como suena" (Ge te a seis, Vais Siti, Yeison) y `subtitulo` con la grafía correcta
+- 02-referencias/planos-trailers.json — catálogo de 68 planos útiles de los 3 tráileres oficiales (id, segundos, etiquetas, centro del recorte). Sin armas/explosiones/logos. Solo imagen: el audio tiene música con copyright
+- Tráileres 4K: se descargan con Firecrawl `alexandria_library_read` provider `youtube` capability `read` formats ["video"] (devuelve URL en storage.googleapis.com, caduca en 1 h). IDs: launch rz1B4B2yBZY, t1 QdBZY2fkU-0, t2 VQRLujxTm3c → guardar como launch.mp4/t1.mp4/t2.mp4 en TRAILERS_DIR
+- Referencia que funciona en español: "Leo te lo Cuenta" (@Leo-te-lo-Cuenta), Short "Los chistes de GTA 6 que solo pillas si hablas español" 21K vistas en 1 día: 31 s, 3 puntos, cortes de 1,2 s en el gancho, gancho fijo arriba, subtítulos de 2 palabras, tarjetas con zoom, barra de progreso, mascota de dibujo. El ángulo "hispano" rinde más que curiosidades genéricas
+- Playwright MCP no arranca (busca Chrome en /opt/google/chrome) y YouTube está bloqueado igualmente: usar Firecrawl
 - 04-assets/clips-fuente/gta6-oficial/ — imágenes oficiales sacadas de la galería de rockstargames.com/VI vía captura de Firecrawl (algunas tenían cortes de carga; revisar antes de usar)
 - 01-investigacion/plan-gta6.md — hallazgos, formatos, pipeline
 - 02-referencias/ — canales modelo y vídeos que funcionan
@@ -31,3 +36,4 @@ Objetivo: canal sin cara de Shorts/TikTok sobre GTA 6 para el público hispano, 
 - 2026-10-21: arranque como canal faceless genérico (en historial git).
 - 2026-11-16: pivot a GTA 6 Shorts. Investigación hecha, hacer-short.sh probado con vídeo sintético.
 - 2026-11-17: Aitor pide que Claude haga todo (voz sintética en vez de la suya). Vídeo 01 para subir hoy + guiones/vídeos 02–06 para el 18-nov. Pendiente: que Aitor escuche la voz (no se pudo verificar de oído), feedback de los primeros vídeos, saber si tiene consola + juego.
+- 2026-11-17 (2): v2 dinámica con metraje real de tráileres, karaoke, música y conversión de voz lista. Pendiente: grabación de 30–60 s de Aitor para VOZ_REFERENCIA; ideas de ángulo hispano (chistes/carteles que solo pilla un hispanohablante).

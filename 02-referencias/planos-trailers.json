@@ -1,0 +1,796 @@
+{
+ "fuentes": {
+  "launch": {
+   "youtube": "rz1B4B2yBZY",
+   "titulo": "GTA VI Launch Trailer",
+   "crop": [
+    3840,
+    1920,
+    0,
+    120
+   ]
+  },
+  "t1": {
+   "youtube": "QdBZY2fkU-0",
+   "titulo": "GTA VI Trailer 1",
+   "crop": [
+    3840,
+    2160,
+    0,
+    0
+   ]
+  },
+  "t2": {
+   "youtube": "VQRLujxTm3c",
+   "titulo": "GTA VI Trailer 2",
+   "crop": [
+    3840,
+    1728,
+    0,
+    216
+   ]
+  }
+ },
+ "nota": "Solo imagen: el audio de los tráileres lleva música con copyright (Tom Petty, Justice). Excluidos: armas, explosiones, sangre, logos de terceros y planos con texto encima. Revisado plano a plano (inicio/mitad/final) el 17-nov: recortados A04, A12, B05, B06, B18, L01, L07, L19; eliminado L28 (logo y pantalla final).",
+ "planos": [
+  {
+   "id": "A01",
+   "src": "t1",
+   "ini": 2.75,
+   "fin": 4.92,
+   "tags": [
+    "atardecer",
+    "carretera",
+    "ciudad"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A02",
+   "src": "t1",
+   "ini": 5.08,
+   "fin": 6.45,
+   "tags": [
+    "carcel"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A03",
+   "src": "t1",
+   "ini": 6.61,
+   "fin": 8.39,
+   "tags": [
+    "lucia",
+    "carcel"
+   ],
+   "x": 0.38
+  },
+  {
+   "id": "A04",
+   "src": "t1",
+   "ini": 9.75,
+   "fin": 10.85,
+   "tags": [
+    "lucia",
+    "carcel"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A06",
+   "src": "t1",
+   "ini": 19.25,
+   "fin": 21.65,
+   "tags": [
+    "pantano",
+    "grassrivers",
+    "naturaleza"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A07",
+   "src": "t1",
+   "ini": 21.81,
+   "fin": 23.19,
+   "tags": [
+    "playa",
+    "vicecity",
+    "gente"
+   ],
+   "x": 0.45
+  },
+  {
+   "id": "A08",
+   "src": "t1",
+   "ini": 23.35,
+   "fin": 24.75,
+   "tags": [
+    "mar",
+    "barco",
+    "puerto"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "A09",
+   "src": "t1",
+   "ini": 24.91,
+   "fin": 27.35,
+   "tags": [
+    "fiesta",
+    "noche"
+   ],
+   "x": 0.45
+  },
+  {
+   "id": "A10",
+   "src": "t1",
+   "ini": 27.51,
+   "fin": 28.89,
+   "tags": [
+    "calle",
+    "coches",
+    "vicecity"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A11",
+   "src": "t1",
+   "ini": 29.05,
+   "fin": 29.92,
+   "tags": [
+    "fiesta"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A12",
+   "src": "t1",
+   "ini": 31.0,
+   "fin": 32.49,
+   "tags": [
+    "ciudad",
+    "noche",
+    "vicecity"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A13",
+   "src": "t1",
+   "ini": 32.65,
+   "fin": 34.05,
+   "tags": [
+    "ciudad",
+    "noche",
+    "vicecity",
+    "coches"
+   ],
+   "x": 0.45
+  },
+  {
+   "id": "A14",
+   "src": "t1",
+   "ini": 34.21,
+   "fin": 35.59,
+   "tags": [
+    "fiesta"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A15",
+   "src": "t1",
+   "ini": 35.75,
+   "fin": 37.35,
+   "tags": [
+    "keys",
+    "mar",
+    "puente",
+    "aereo"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "A16",
+   "src": "t1",
+   "ini": 37.51,
+   "fin": 39.72,
+   "tags": [
+    "playa",
+    "piscina",
+    "vicecity"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "A17",
+   "src": "t1",
+   "ini": 39.88,
+   "fin": 41.25,
+   "tags": [
+    "vice",
+    "cartel",
+    "atardecer"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A18",
+   "src": "t1",
+   "ini": 41.41,
+   "fin": 42.32,
+   "tags": [
+    "redes",
+    "humor",
+    "barco"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A19",
+   "src": "t1",
+   "ini": 42.48,
+   "fin": 43.82,
+   "tags": [
+    "redes",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A20",
+   "src": "t1",
+   "ini": 43.98,
+   "fin": 45.39,
+   "tags": [
+    "redes",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A22",
+   "src": "t1",
+   "ini": 46.61,
+   "fin": 47.45,
+   "tags": [
+    "redes",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A26",
+   "src": "t1",
+   "ini": 52.25,
+   "fin": 53.89,
+   "tags": [
+    "redes",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A27",
+   "src": "t1",
+   "ini": 54.05,
+   "fin": 54.92,
+   "tags": [
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A28",
+   "src": "t1",
+   "ini": 55.08,
+   "fin": 57.25,
+   "tags": [
+    "pantano",
+    "humor",
+    "grassrivers"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A29",
+   "src": "t1",
+   "ini": 57.41,
+   "fin": 59.45,
+   "tags": [
+    "redes",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A31",
+   "src": "t1",
+   "ini": 60.55,
+   "fin": 62.45,
+   "tags": [
+    "cartel",
+    "humor",
+    "coche"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "A32",
+   "src": "t1",
+   "ini": 62.61,
+   "fin": 63.49,
+   "tags": [
+    "lucia",
+    "coche"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "A35",
+   "src": "t1",
+   "ini": 65.71,
+   "fin": 66.59,
+   "tags": [
+    "motos",
+    "portgellhorn"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A36",
+   "src": "t1",
+   "ini": 66.75,
+   "fin": 67.59,
+   "tags": [
+    "noticias",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "A39",
+   "src": "t1",
+   "ini": 70.35,
+   "fin": 72.75,
+   "tags": [
+    "coche"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B01",
+   "src": "t2",
+   "ini": 8.21,
+   "fin": 9.72,
+   "tags": [
+    "casa",
+    "keys"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B02",
+   "src": "t2",
+   "ini": 9.88,
+   "fin": 11.39,
+   "tags": [
+    "coche",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B03",
+   "src": "t2",
+   "ini": 11.55,
+   "fin": 13.59,
+   "tags": [
+    "keys",
+    "mar"
+   ],
+   "x": 0.4
+  },
+  {
+   "id": "B05",
+   "src": "t2",
+   "ini": 20.51,
+   "fin": 23.19,
+   "tags": [
+    "casa",
+    "keys"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B06",
+   "src": "t2",
+   "ini": 26.93,
+   "fin": 29.54,
+   "tags": [
+    "jason",
+    "coche"
+   ],
+   "x": 0.62
+  },
+  {
+   "id": "B08",
+   "src": "t2",
+   "ini": 34.68,
+   "fin": 38.29,
+   "tags": [
+    "ciudad",
+    "carretera",
+    "vicecity"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B09",
+   "src": "t2",
+   "ini": 38.45,
+   "fin": 41.52,
+   "tags": [
+    "playa",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B12",
+   "src": "t2",
+   "ini": 49.91,
+   "fin": 51.79,
+   "tags": [
+    "carcel"
+   ],
+   "x": 0.58
+  },
+  {
+   "id": "B13",
+   "src": "t2",
+   "ini": 51.95,
+   "fin": 60.49,
+   "tags": [
+    "carcel",
+    "lucia"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B14",
+   "src": "t2",
+   "ini": 60.65,
+   "fin": 63.02,
+   "tags": [
+    "carcel"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B15",
+   "src": "t2",
+   "ini": 63.18,
+   "fin": 66.12,
+   "tags": [
+    "lucia",
+    "carcel"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B18",
+   "src": "t2",
+   "ini": 79.58,
+   "fin": 80.72,
+   "tags": [
+    "lucia",
+    "jason",
+    "pareja",
+    "bar"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B19",
+   "src": "t2",
+   "ini": 81.48,
+   "fin": 83.02,
+   "tags": [
+    "keys",
+    "mar",
+    "atardecer"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B20",
+   "src": "t2",
+   "ini": 83.18,
+   "fin": 85.02,
+   "tags": [
+    "atardecer",
+    "mar",
+    "keys"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B23",
+   "src": "t2",
+   "ini": 88.31,
+   "fin": 89.42,
+   "tags": [
+    "lucia",
+    "jason",
+    "pareja"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B24",
+   "src": "t2",
+   "ini": 90.45,
+   "fin": 91.92,
+   "tags": [
+    "bar"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B25",
+   "src": "t2",
+   "ini": 92.08,
+   "fin": 96.05,
+   "tags": [
+    "fiesta",
+    "bar"
+   ],
+   "x": 0.45
+  },
+  {
+   "id": "B26",
+   "src": "t2",
+   "ini": 96.21,
+   "fin": 97.59,
+   "tags": [
+    "lucia",
+    "jason",
+    "bar"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B31",
+   "src": "t2",
+   "ini": 125.85,
+   "fin": 126.65,
+   "tags": [
+    "ciudad",
+    "vicecity",
+    "calle"
+   ],
+   "x": 0.4
+  },
+  {
+   "id": "B35",
+   "src": "t2",
+   "ini": 138.21,
+   "fin": 139.02,
+   "tags": [
+    "pantano",
+    "helicoptero",
+    "grassrivers"
+   ],
+   "x": 0.6
+  },
+  {
+   "id": "B37",
+   "src": "t2",
+   "ini": 140.11,
+   "fin": 141.75,
+   "tags": [
+    "mar",
+    "moto-agua",
+    "keys"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "B38",
+   "src": "t2",
+   "ini": 141.91,
+   "fin": 143.65,
+   "tags": [
+    "moto",
+    "avion"
+   ],
+   "x": 0.4
+  },
+  {
+   "id": "L01",
+   "src": "launch",
+   "ini": 3.25,
+   "fin": 5.05,
+   "tags": [
+    "keys",
+    "cartel"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L02",
+   "src": "launch",
+   "ini": 6.38,
+   "fin": 9.22,
+   "tags": [
+    "jason",
+    "coche"
+   ],
+   "x": 0.62
+  },
+  {
+   "id": "L03",
+   "src": "launch",
+   "ini": 9.38,
+   "fin": 11.15,
+   "tags": [
+    "jason",
+    "barco",
+    "keys"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "L04",
+   "src": "launch",
+   "ini": 11.31,
+   "fin": 13.45,
+   "tags": [
+    "jason",
+    "keys",
+    "marina"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L05",
+   "src": "launch",
+   "ini": 13.61,
+   "fin": 14.42,
+   "tags": [
+    "keys",
+    "mar",
+    "marina"
+   ],
+   "x": 0.6
+  },
+  {
+   "id": "L07",
+   "src": "launch",
+   "ini": 20.58,
+   "fin": 21.98,
+   "tags": [
+    "iguana",
+    "humor"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L08",
+   "src": "launch",
+   "ini": 25.78,
+   "fin": 27.09,
+   "tags": [
+    "lucia",
+    "jason",
+    "coche",
+    "pareja"
+   ],
+   "x": 0.42
+  },
+  {
+   "id": "L13",
+   "src": "launch",
+   "ini": 35.88,
+   "fin": 37.25,
+   "tags": [
+    "pareja"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L14",
+   "src": "launch",
+   "ini": 37.41,
+   "fin": 38.25,
+   "tags": [
+    "fiesta"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L15",
+   "src": "launch",
+   "ini": 38.41,
+   "fin": 39.69,
+   "tags": [
+    "coche",
+    "ciudad"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L16",
+   "src": "launch",
+   "ini": 39.85,
+   "fin": 41.59,
+   "tags": [
+    "lucia",
+    "jason",
+    "pareja",
+    "coche"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L18",
+   "src": "launch",
+   "ini": 44.48,
+   "fin": 46.22,
+   "tags": [
+    "fiesta"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L19",
+   "src": "launch",
+   "ini": 49.2,
+   "fin": 51.6,
+   "tags": [
+    "moto"
+   ],
+   "x": 0.55
+  },
+  {
+   "id": "L20",
+   "src": "launch",
+   "ini": 54.58,
+   "fin": 56.32,
+   "tags": [
+    "playa",
+    "ciudad",
+    "avion"
+   ],
+   "x": 0.5
+  },
+  {
+   "id": "L22",
+   "src": "launch",
+   "ini": 57.91,
+   "fin": 59.15,
+   "tags": [
+    "humor"
+   ],
+   "x": 0.6
+  },
+  {
+   "id": "L25",
+   "src": "launch",
+   "ini": 66.48,
+   "fin": 67.79,
+   "tags": [
+    "pareja",
+    "lucia",
+    "jason",
+    "atardecer"
+   ],
+   "x": 0.55
+  }
+ ]
+}

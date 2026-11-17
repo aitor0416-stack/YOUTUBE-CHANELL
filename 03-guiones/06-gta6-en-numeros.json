@@ -1,43 +1,71 @@
 {
   "titulo": "GTA 6 en números: 5 datos que impresionan",
-  "descripcion": "Los números de GTA 6: años de espera, tamaño, precio, regiones y retrasos.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "descripcion": "Los números de GTA 6: años de espera, tamaño, precio, regiones y retrasos.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
   "gancho": "GTA 6 EN NÚMEROS",
-  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
   "escenas": [
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "Ge te a seis en cinco números.",
-      "subtitulo": "GTA 6 en 5 números."
+      "subtitulo": "GTA 6 en 5 números.",
+      "planos": [
+        "A17",
+        "A12",
+        "A15"
+      ]
     },
     {
-      "imagen": "atardecer-leonida.jpg",
       "texto": "Trece. Son los años que han pasado desde Ge te a cinco, que salió en septiembre de dos mil trece.",
-      "subtitulo": "13. Los años desde GTA 5, que salió en septiembre de 2013."
+      "subtitulo": "13. Los años desde GTA 5, que salió en septiembre de 2013.",
+      "planos": [
+        "A01",
+        "A12"
+      ],
+      "etiqueta": "13 años"
     },
     {
-      "imagen": "gasolinera.jpg",
       "texto": "Doscientos doce. Los gigas que puede ocupar en tu consola.",
-      "subtitulo": "212. Los GB que puede ocupar en tu consola."
+      "subtitulo": "212. Los GB que puede ocupar en tu consola.",
+      "planos": [
+        "A10",
+        "B08"
+      ],
+      "etiqueta": "212 GB"
     },
     {
-      "imagen": "piscina-aerea.jpg",
       "texto": "Setenta y nueve con noventa y nueve. Los dólares que cuesta la edición estándar en Estados Unidos.",
-      "subtitulo": "79,99. Los dólares que cuesta la edición estándar en EE.UU."
+      "subtitulo": "79,99. Los dólares que cuesta la edición estándar en EE.UU.",
+      "planos": [
+        "A13",
+        "A16"
+      ],
+      "etiqueta": "79,99 $"
     },
     {
-      "imagen": "fondo-marino.jpg",
       "texto": "Seis. Las regiones de Leonida, desde Vais Siti hasta los pantanos.",
-      "subtitulo": "6. Las regiones de Leonida, de Vice City a los pantanos."
+      "subtitulo": "6. Las regiones de Leonida, de Vice City a los pantanos.",
+      "planos": [
+        "A06",
+        "L05",
+        "A07"
+      ],
+      "etiqueta": "6 regiones"
     },
     {
-      "imagen": "chica-coche.jpg",
       "texto": "Y dos. Los retrasos: primero de dos mil veinticinco a mayo de dos mil veintiséis, y luego a noviembre.",
-      "subtitulo": "2. Los retrasos: de 2025 a mayo de 2026, y luego a noviembre."
+      "subtitulo": "2. Los retrasos: de 2025 a mayo de 2026, y luego a noviembre.",
+      "planos": [
+        "B20",
+        "L20"
+      ],
+      "etiqueta": "2 retrasos"
     },
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "¿Cuál de estos números te ha sorprendido más? Te leo en comentarios.",
-      "subtitulo": "¿Cuál de estos números te ha sorprendido más? Te leo en comentarios."
+      "subtitulo": "¿Cuál de estos números te ha sorprendido más? Te leo en comentarios.",
+      "planos": [
+        "A12",
+        "A17"
+      ]
     }
-  ]
+  ],
+  "semilla_musica": 6
 }

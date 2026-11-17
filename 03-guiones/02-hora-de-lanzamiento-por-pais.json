@@ -1,38 +1,63 @@
 {
   "titulo": "¿A qué hora sale GTA 6 en tu país?",
-  "descripcion": "GTA 6 se desbloquea a medianoche, país por país. Te contamos quién juega primero.\n\nImágenes: Rockstar Games (galería oficial de GTA VI).\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
-  "gancho": "¿A QUÉ HORA SALE?",
-  "imagenes_dir": "../04-assets/clips-fuente/gta6-oficial",
+  "descripcion": "GTA 6 se desbloquea a medianoche, país por país. Te contamos quién juega primero.\n\nImágenes: tráileres y galería oficiales de Rockstar Games.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "gancho": "¿A QUÉ HORA SALE GTA 6?",
   "escenas": [
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "¿A qué hora puedes jugar Ge te a seis? Depende de dónde vivas.",
-      "subtitulo": "¿A qué hora puedes jugar GTA 6? Depende de dónde vivas."
+      "subtitulo": "¿A qué hora puedes jugar GTA 6? Depende de dónde vivas.",
+      "planos": [
+        "A17",
+        "A12",
+        "A13"
+      ]
     },
     {
-      "imagen": "atardecer-leonida.jpg",
       "texto": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda.",
-      "subtitulo": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda."
+      "subtitulo": "Rockstar ha elegido un lanzamiento a medianoche, país por país. Y el primero en jugar será Nueva Zelanda.",
+      "planos": [
+        "A01",
+        "A15",
+        "B20"
+      ],
+      "etiqueta": "Primero"
     },
     {
-      "imagen": "piscina-aerea.jpg",
       "texto": "En España, a las doce de la noche del diecinueve de noviembre.",
-      "subtitulo": "En España, a las 00:00 del 19 de noviembre."
+      "subtitulo": "En España, a las 00:00 del 19 de noviembre.",
+      "planos": [
+        "A12",
+        "B08"
+      ],
+      "etiqueta": "España"
     },
     {
-      "imagen": "chica-coche.jpg",
       "texto": "En Argentina, Chile y Uruguay, también a medianoche de su hora local.",
-      "subtitulo": "En Argentina, Chile y Uruguay, también a medianoche de su hora local."
+      "subtitulo": "En Argentina, Chile y Uruguay, también a medianoche de su hora local.",
+      "planos": [
+        "A07",
+        "A10"
+      ],
+      "etiqueta": "Argentina, Chile y Uruguay"
     },
     {
-      "imagen": "gasolinera.jpg",
       "texto": "Y en México y Centroamérica, a medianoche, unas diecinueve horas después que en Nueva Zelanda.",
-      "subtitulo": "Y en México y Centroamérica, a medianoche, unas 19 horas después que en Nueva Zelanda."
+      "subtitulo": "Y en México y Centroamérica, a medianoche, unas 19 horas después que en Nueva Zelanda.",
+      "planos": [
+        "B31",
+        "A13",
+        "L15"
+      ],
+      "etiqueta": "México y Centroamérica"
     },
     {
-      "imagen": "vice-city-noche.jpg",
       "texto": "¿Desde qué país lo vas a jugar? Te leo en comentarios.",
-      "subtitulo": "¿Desde qué país lo vas a jugar? Te leo en comentarios."
+      "subtitulo": "¿Desde qué país lo vas a jugar? Te leo en comentarios.",
+      "planos": [
+        "A12",
+        "L20"
+      ]
     }
-  ]
+  ],
+  "semilla_musica": 2
 }

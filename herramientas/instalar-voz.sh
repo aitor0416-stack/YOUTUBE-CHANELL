@@ -18,3 +18,18 @@ fi
 export COQUI_MODEL_DIR="$M"
 export VOZ_PY="$D/venv/bin/python"
 echo "Voz lista. Ejemplo: \$VOZ_PY herramientas/generar-short.py 03-guiones/01-gta6-sale-en-2-dias.json 05-videos-finales/01.mp4"
+
+# --- Opcional: convertir la voz al timbre de Aitor (FreeVC + WavLM, ~2,6 GB) ---
+# Uso: CON_FREEVC=1 source herramientas/instalar-voz.sh ; luego VOZ_REFERENCIA=mi-voz.wav
+if [[ "${CON_FREEVC:-0}" == "1" ]]; then
+  F="$D/voice_conversion_models--multilingual--vctk--freevc24"
+  if [[ ! -f "$F/model.pth" ]]; then
+    curl -sL -o "$D/freevc.zip" https://github.com/coqui-ai/TTS/releases/download/v0.13.0_models/voice_conversion_models--multilingual--vctk--freevc24.zip
+    unzip -oq "$D/freevc.zip" -d "$D"
+  fi
+  mkdir -p "$HOME/.local/share/tts"
+  [[ -f "$HOME/.local/share/tts/WavLM-Large.pt" ]] || curl -sL -o "$HOME/.local/share/tts/WavLM-Large.pt" \
+    https://github.com/coqui-ai/TTS/releases/download/v0.13.0_models/WavLM-Large.pt
+  export FREEVC_DIR="$F"
+  echo "FreeVC listo. Exporta VOZ_REFERENCIA=/ruta/a/tu-voz.wav antes de generar."
+fi
