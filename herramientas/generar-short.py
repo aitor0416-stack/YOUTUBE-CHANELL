@@ -294,6 +294,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             if act and es_num(p) and es_num(palabras[act[-1]]):
                 bloques.append(act)
                 act = []
+            # a tamaño 112 caben ~16 caracteres en 1080 px: si no caben juntas, cada una en su bloque
+            if act and len(" ".join(palabras[j] for j in act + [k])) > 16:
+                bloques.append(act)
+                act = []
             act.append(k)
             if p.upper() == "GTA" and es_num(sig):
                 continue
