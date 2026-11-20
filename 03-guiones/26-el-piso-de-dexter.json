@@ -1,0 +1,73 @@
+{
+  "titulo": "GTA 6 esconde el piso de DEXTER 😳",
+  "gancho": "EL PISO DE DEXTER",
+  "semilla_musica": 26,
+  "descripcion": "Rockstar ha escondido el apartamento de Dexter Morgan en Vice City 📺\n¿Viste Dexter? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts #dexter",
+  "fuentes": [
+    {
+      "dato": "El apartamento de Dexter Morgan está en Washington Island (Vice City), cerca del Pay 'n' Spray, en los Trinity Apartments; persianas bajadas y su equipo en la azotea",
+      "fuente": "Game8; ComicBook",
+      "confianza": "Cierto",
+      "url": "https://comicbook.com/gaming/list/5-most-exciting-gta-6-easter-eggs-players-have-found-after-launch-day/"
+    }
+  ],
+  "escenas": [
+    {
+      "texto": "Ge te a seis esconde el piso de Déxter, el de la serie.",
+      "subtitulo": "GTA 6 esconde el piso de Dexter, el de la serie.",
+      "planos": [
+        "A12",
+        "B31",
+        "A13"
+      ]
+    },
+    {
+      "texto": "Está en Washington Ailand, en Vais Siti, cerca del Pei an Sprei.",
+      "subtitulo": "Está en Washington Island, en Vice City, cerca del Pay 'n' Spray.",
+      "planos": [
+        "A10",
+        "B08"
+      ]
+    },
+    {
+      "texto": "En unos apartamentos que se llaman Trínity.",
+      "subtitulo": "En unos apartamentos que se llaman Trinity.",
+      "planos": [
+        "L15",
+        "A17"
+      ]
+    },
+    {
+      "texto": "Las persianas están bajadas, y en la azotea tiene todo su equipo.",
+      "subtitulo": "Las persianas están bajadas, y en la azotea tiene todo su equipo.",
+      "planos": [
+        "A01",
+        "B20"
+      ]
+    },
+    {
+      "texto": "Rockstar siempre mete guiños al cine y a la tele, y este es de los mejores.",
+      "subtitulo": "Rockstar siempre mete guiños al cine y a la tele, y este es de los mejores.",
+      "planos": [
+        "A16",
+        "L20"
+      ]
+    },
+    {
+      "texto": "Eso sí, para encontrarlo vas a tener que fijarte bien en cada edificio.",
+      "subtitulo": "Eso sí, para encontrarlo vas a tener que fijarte bien en cada edificio.",
+      "planos": [
+        "B31",
+        "A13"
+      ]
+    },
+    {
+      "texto": "¿Viste Déxter?",
+      "subtitulo": "¿Viste Dexter?",
+      "planos": [
+        "L08",
+        "A12"
+      ]
+    }
+  ]
+}

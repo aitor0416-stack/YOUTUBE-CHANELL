@@ -1,0 +1,85 @@
+{
+  "titulo": "GTA 6 vendió 24 MILLONES en un solo día 🤯",
+  "gancho": "24 MILLONES",
+  "semilla_musica": 24,
+  "descripcion": "Contando las reservas, GTA 6 vendió unos 24,5 millones de copias en su primer día, según Sensor Tower 💸\n¿Tú eres de los 24 millones? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "fuentes": [
+    {
+      "dato": "Sensor Tower estima 24,58 millones de copias (24,5 millones / 24 millones) y unos 2.360 millones de dólares entre reservas y primer día",
+      "fuente": "BBC; Anadolu; TweakTown",
+      "confianza": "Probable",
+      "url": "https://www.bbc.com/news/articles/c9zr5nyv5dj2o"
+    },
+    {
+      "dato": "GTA 5 hizo más de 800 millones de dólares en sus primeras 24 horas (casi 3 veces menos)",
+      "fuente": "Take-Two vía Anadolu",
+      "confianza": "Cierto",
+      "url": "https://aa.com.tr/en/world/gta-6-generates-estimated-236b-in-launch-revenue-sells-over-245m-copies/4131705"
+    },
+    {
+      "dato": "Reparto 75% PlayStation / 25% Xbox: 3 de cada 4 copias en PlayStation",
+      "fuente": "TweakTown (Sensor Tower)",
+      "confianza": "Probable",
+      "url": "https://www.tweaktown.com/news/114795/gta-6-day-one-sales-estimates-break-24-5-million-with-dollars2-36-billion-earned/index.html"
+    }
+  ],
+  "escenas": [
+    {
+      "texto": "Ge te a seis ha vendido veinticuatro millones de copias en un solo día.",
+      "subtitulo": "GTA 6 ha vendido 24 millones de copias en un solo día.",
+      "planos": [
+        "L20",
+        "A12",
+        "A13"
+      ]
+    },
+    {
+      "texto": "Contando las reservas, Sénsor Táuer estima veinticuatro millones y medio.",
+      "subtitulo": "Contando las reservas, Sensor Tower estima 24,5 millones.",
+      "planos": [
+        "B08",
+        "A15"
+      ]
+    },
+    {
+      "texto": "Eso son unos dos mil trescientos sesenta millones de dólares.",
+      "subtitulo": "Eso son unos 2.360 millones de dólares.",
+      "planos": [
+        "A09",
+        "B25"
+      ]
+    },
+    {
+      "texto": "Ge te a cinco hizo ochocientos millones en su primer día. Casi tres veces menos.",
+      "subtitulo": "GTA 5 hizo 800 millones en su primer día. Casi 3 veces menos.",
+      "planos": [
+        "A10",
+        "L15"
+      ]
+    },
+    {
+      "texto": "Y tres de cada cuatro copias se han vendido en Pléisteishon.",
+      "subtitulo": "Y 3 de cada 4 copias se han vendido en PlayStation.",
+      "planos": [
+        "B38",
+        "A16"
+      ]
+    },
+    {
+      "texto": "Y eso que todavía no ha salido en pecé.",
+      "subtitulo": "Y eso que todavía no ha salido en PC.",
+      "planos": [
+        "A39",
+        "B02"
+      ]
+    },
+    {
+      "texto": "¿Tú eres de los veinticuatro millones?",
+      "subtitulo": "¿Tú eres de los 24 millones?",
+      "planos": [
+        "L16",
+        "L20"
+      ]
+    }
+  ]
+}

@@ -8,6 +8,7 @@ Basada en el análisis del 17-nov-2026 de los Shorts y TikToks de GTA 6 con más
 - 0–7 s: **sin violencia gráfica** (si no, el vídeo pierde anuncios)
 - 20–35 s en total (~2,7 palabras/s → 55–90 palabras). Frases de 4–10 palabras
 - Un tema por Short. En las listas, cada punto empieza por su número ("Uno.", "Dos."…)
+- El último plano repite el primero (bucle: al volver a empezar, el Short enlaza solo)
 - Cierre en una frase corta con pregunta ("¿Equipo Jason o equipo Lucía?"). Sin "suscríbete" al final: hace que la gente se vaya antes
 - En pantalla **solo subtítulos abajo**: 1–2 palabras, números y nombres propios en amarillo
 - Sin spoilers de la historia. Todo dato, verificado (fuente oficial o 2 medios) antes de escribirlo, y apuntado en `fuentes`

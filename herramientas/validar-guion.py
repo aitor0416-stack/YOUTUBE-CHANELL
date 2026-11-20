@@ -54,11 +54,11 @@ def busca(palabra, texto):
 
 
 def numeros_a_justificar(subtitulo):
-    """Números que dicen un dato. No cuentan: el 6/5/4 de "GTA 6", el de "PS5" ni el número de un punto de lista."""
+    """Números que dicen un dato. No cuentan: el 6/5/4 de "GTA 6", los pegados a letras porque son
+    parte de un nombre ("PS5", "Game8", "3D") ni el número de un punto de lista ("1. ...")."""
     s = re.sub(r"\bGTA\s+(VI|V|IV|\d)\b", " ", subtitulo)
-    s = re.sub(r"\bPS\d\b", " ", s)
     s = re.sub(r"^(Y\s+)?\d+\.\s", " ", s.strip())          # "1. ..." / "Y 4. ..."
-    return re.findall(r"\d+(?:[.,]\d+)*", s)
+    return re.findall(r"(?<![A-Za-zÁÉÍÓÚáéíóúñÑ])\d+(?:[.,]\d+)*(?![A-Za-zÁÉÍÓÚáéíóúñÑ])", s)
 
 
 def validar(ruta, planos_catalogo, prohibidas, prohibidas_gancho):

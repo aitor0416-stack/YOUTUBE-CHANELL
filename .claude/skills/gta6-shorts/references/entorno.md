@@ -5,7 +5,8 @@ necesita `herramientas/producir.sh`. Orden recomendado (unos 5–10 minutos).
 
 ## 1. Voz (Kokoro, y Coqui de reserva)
 ```bash
-source herramientas/instalar-voz.sh            # crea ~/voz-tts (venv + modelos desde GitHub)
+SOLO_KOKORO=1 source herramientas/instalar-voz.sh   # ~2 min: venv + Kokoro en ~/voz-tts (sin Coqui/torch)
+# source herramientas/instalar-voz.sh              # completo, con Coqui de reserva (varios GB)
 ```
 - Kokoro (`~/voz-tts/kokoro/kokoro-v1.0.onnx` + `voices-v1.0.bin`) es la voz por defecto,
   `em_santa`. Licencia Apache-2.0 (sirve para monetizar).
@@ -15,7 +16,7 @@ source herramientas/instalar-voz.sh            # crea ~/voz-tts (venv + modelos 
 - `CON_FREEVC=1` añade la conversión al timbre de Aitor (~2,6 GB). Solo si hay grabación suya
   (`VOZ_REFERENCIA=grabacion.wav`).
 
-## 2. Tráileres oficiales en 4K → `~/trailers/`
+## 2. Tráileres oficiales en 4K → `~/trailers/` (pide los 3 en una sola llamada, ~27 créditos)
 YouTube está bloqueado para descargas directas. Firecrawl devuelve un enlace firmado de
 storage.googleapis.com que **caduca en 1 hora** (descárgalo enseguida).
 
@@ -23,7 +24,7 @@ storage.googleapis.com que **caduca en 1 hora** (descárgalo enseguida).
 alexandria_library_read  calls=[{"provider":"youtube","capability":"read",
   "options":{"url":"https://www.youtube.com/watch?v=<ID>","formats":["video"]}}]
 ```
-Coge `data.video` de la respuesta y `curl -sS -o ~/trailers/<nombre>.mp4 '<url>'`.
+Coge `data.document.video` de cada resultado (si la respuesta es muy grande queda en un archivo: sácalo con python/jq) y `curl -sS -o ~/trailers/<nombre>.mp4 '<url>'`.
 
 | Archivo | ID | Recorte (franjas negras) |
 |---|---|---|

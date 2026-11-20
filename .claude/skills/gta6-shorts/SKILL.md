@@ -64,7 +64,9 @@ Formato, fórmulas de gancho, fonética y reglas de título/descripción en
 - Planos: ids de `02-referencias/planos-trailers.json`. Primer plano distinto al de los últimos
   vídeos; sin planos con etiqueta `redes`/`noticias` donde vaya texto (sus rótulos tapan los
   subtítulos). Catálogo y recortes en `references/planos.md`.
-- Unas 68–100 palabras de `texto` (3,4 palabras/s ≈ 20–30 s).
+- Unas 75–100 palabras de `texto` (3,4 palabras/s ≈ 22–30 s; `producir.sh` marca REVISAR por debajo de 20 s).
+- **Bucle:** el último plano de la última escena = el primer plano del vídeo, para que al repetirse
+  el Short enlace solo (más repeticiones). La pregunta final invita a comentar.
 
 ### 4. Generar y comprobar en un paso
 ```bash
@@ -91,7 +93,9 @@ captura (guárdala en `.playwright-mcp/` y bórrala después). Fallos ya vistos 
 `references/errores-conocidos.md`.
 
 ### 7. Entregar
-- `SendUserFile` con los `.mp4` y sus `.srt` (display `attach`).
+- `python3 herramientas/hoja-subida.py 03-guiones/24-*.json ...` → `05-videos-finales/SUBIR.md`
+  (título, descripción, .srt y ajustes de YouTube/TikTok de cada vídeo, listo para copiar y pegar).
+- `SendUserFile` con los `.mp4`, sus `.srt` y `SUBIR.md` (display `attach`).
 - Mensaje a Aitor: primero lo incómodo (qué no se pudo hacer, qué dato es más flojo), luego tabla
   título / fórmula / confianza, comprobaciones con sus números reales, orden de publicación si
   hay noticias que caducan, créditos de Firecrawl gastados. Marca la confianza (Cierto / Probable /
@@ -105,6 +109,10 @@ captura (guárdala en `.playwright-mcp/` y bórrala después). Fallos ya vistos 
   vistas/30 días y vídeos ≥1 min 100 % originales (TikTok Creator Academy, sept-2026). Recomendar
   subir el mismo archivo a TikTok, Shorts y Reels (sin marca de agua de otra red) y monetizar vía
   YouTube (1.000 subs + 10M vistas/90 días; 20M desde 1-feb-2027).
+- **"¿Me lo subes / conectamos YouTube?"** No hay conector oficial de YouTube para subir y el entorno
+  bloquea YouTube. La API de YouTube con un proyecto sin auditar deja los vídeos en privado; los
+  conectores de terceros (Windsor.ai) piden acceso al canal y suelen ser de pago. Lo práctico:
+  `SUBIR.md` + programar 1–2 al día en YouTube Studio y TikTok (unos 2 min por vídeo).
 - **"Coge clips de X / haz clipping"** → regla 1. Clipping legal = con permiso o programa de pago
   del creador.
 - **"¿Es segura esta skill/herramienta?"** → clonar en el scratchpad sin ejecutar, leer los

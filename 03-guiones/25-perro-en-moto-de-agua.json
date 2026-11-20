@@ -1,0 +1,87 @@
+{
+  "titulo": "En GTA 6 un PERRO en moto de agua te rescata 🐶",
+  "gancho": "COOL DOG",
+  "semilla_musica": 25,
+  "descripcion": "El easter egg más bonito de GTA 6: un perro en moto de agua que te rescata en el mar 🐶🌊\n¿Lo has encontrado ya? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "fuentes": [
+    {
+      "dato": "Un perro en moto de agua te rescata si te quedas en el mar y te lleva a una isla con más perros; lo llaman Cool Dog",
+      "fuente": "Game8; ComicBook; vídeos de jugadores",
+      "confianza": "Cierto",
+      "url": "https://comicbook.com/gaming/list/5-most-exciting-gta-6-easter-eggs-players-have-found-after-launch-day/"
+    },
+    {
+      "dato": "Al final te lleva a un alijo de dinero escondido",
+      "fuente": "Game8",
+      "confianza": "Probable",
+      "url": "https://game8.co/games/GTA-6/archives/638651"
+    }
+  ],
+  "escenas": [
+    {
+      "texto": "En Ge te a seis, un perro en moto de agua te puede rescatar.",
+      "subtitulo": "En GTA 6, un perro en moto de agua te puede rescatar.",
+      "planos": [
+        "B37",
+        "L05",
+        "A08"
+      ]
+    },
+    {
+      "texto": "Si te quedas tirado en mitad del mar, aparece él, pilotando.",
+      "subtitulo": "Si te quedas tirado en mitad del mar, aparece él, pilotando.",
+      "planos": [
+        "B03",
+        "B19"
+      ]
+    },
+    {
+      "texto": "Te lleva hasta una isla donde hay más perros jugando.",
+      "subtitulo": "Te lleva hasta una isla donde hay más perros jugando.",
+      "planos": [
+        "B09",
+        "A16"
+      ]
+    },
+    {
+      "texto": "Y según la guía de Geim eit, te acaba llevando a un alijo de dinero escondido.",
+      "subtitulo": "Y según la guía de Game8, te acaba llevando a un alijo de dinero escondido.",
+      "planos": [
+        "L03",
+        "B20"
+      ]
+    },
+    {
+      "texto": "Los jugadores ya lo llaman Cul Dog.",
+      "subtitulo": "Los jugadores ya lo llaman Cool Dog.",
+      "planos": [
+        "L01",
+        "A15"
+      ]
+    },
+    {
+      "texto": "Así que si te quedas sin barco en mitad del mar, tranquilo.",
+      "subtitulo": "Así que si te quedas sin barco en mitad del mar, tranquilo.",
+      "planos": [
+        "B19",
+        "L05"
+      ]
+    },
+    {
+      "texto": "Rockstar ha escondido mil cosas, pero esta es de las más bonitas.",
+      "subtitulo": "Rockstar ha escondido mil cosas, pero esta es de las más bonitas.",
+      "planos": [
+        "A07",
+        "B09"
+      ]
+    },
+    {
+      "texto": "¿Lo has encontrado ya?",
+      "subtitulo": "¿Lo has encontrado ya?",
+      "planos": [
+        "L25",
+        "B37"
+      ]
+    }
+  ]
+}

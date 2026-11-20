@@ -1,0 +1,80 @@
+{
+  "titulo": "Bigfoot de GTA 6 te puede SECUESTRAR 🦶",
+  "gancho": "SKUNK APE",
+  "semilla_musica": 28,
+  "descripcion": "En GTA 6, Bigfoot se llama Skunk Ape, vive en Grassrivers… y te lleva en brazos 🦶\n¿Irías a buscarlo? 👇\n\nImágenes: tráileres oficiales de Rockstar Games. Voz sintética.\n\n#gta6 #gtavi #vicecity #rockstargames #shorts",
+  "fuentes": [
+    {
+      "dato": "En el juego se llama Skunk Ape y deja un rastro de gas; está en Grassrivers",
+      "fuente": "ComicBook",
+      "confianza": "Cierto",
+      "url": "https://comicbook.com/gaming/list/5-most-exciting-gta-6-easter-eggs-players-have-found-after-launch-day/"
+    },
+    {
+      "dato": "Al sur del lago Cottonmouth; si te acercas, te despiertas junto al lago porque te ha llevado",
+      "fuente": "Game8",
+      "confianza": "Cierto",
+      "url": "https://game8.co/games/GTA-6/archives/638651"
+    }
+  ],
+  "escenas": [
+    {
+      "texto": "Bigfoot te puede secuestrar en Ge te a seis.",
+      "subtitulo": "Bigfoot te puede secuestrar en GTA 6.",
+      "planos": [
+        "A06",
+        "A28",
+        "B35"
+      ]
+    },
+    {
+      "texto": "En el juego se llama Skank Eip, y deja un rastro de gas por donde pasa.",
+      "subtitulo": "En el juego se llama Skunk Ape, y deja un rastro de gas por donde pasa.",
+      "planos": [
+        "L07",
+        "A06"
+      ]
+    },
+    {
+      "texto": "Vive en Grasrivers, al sur del lago Cótonmauz.",
+      "subtitulo": "Vive en Grassrivers, al sur del lago Cottonmouth.",
+      "planos": [
+        "B35",
+        "A28"
+      ]
+    },
+    {
+      "texto": "Y si te acercas demasiado, te despiertas junto al lago. Bigfoot te ha llevado en brazos.",
+      "subtitulo": "Y si te acercas demasiado, te despiertas junto al lago. Bigfoot te ha llevado en brazos.",
+      "planos": [
+        "A15",
+        "B03",
+        "A01"
+      ]
+    },
+    {
+      "texto": "En San Andreas era solo un mito. Aquí, te secuestra.",
+      "subtitulo": "En San Andreas era solo un mito. Aquí, te secuestra.",
+      "planos": [
+        "B20",
+        "A17"
+      ]
+    },
+    {
+      "texto": "Así que si vas al pantano de noche, no vayas solo.",
+      "subtitulo": "Así que si vas al pantano de noche, no vayas solo.",
+      "planos": [
+        "A28",
+        "B35"
+      ]
+    },
+    {
+      "texto": "¿Irías a buscarlo?",
+      "subtitulo": "¿Irías a buscarlo?",
+      "planos": [
+        "L25",
+        "A06"
+      ]
+    }
+  ]
+}

@@ -64,6 +64,8 @@ print(" | ".join(b.split("\n")[2] for b in bloques if len(b.split("\n"))>2 and l
   case "$sync" in *SINCRONIZADO*) ;; *) estado="REVISAR"; problemas=$((problemas+1));; esac
   [ -n "$largos" ] && { estado="REVISAR"; problemas=$((problemas+1)); }
   [ "$tam" = "1080,1920,1:1" ] || { estado="REVISAR"; problemas=$((problemas+1)); }
+  # regla del canal: 20-35 s (por debajo de 20 el algoritmo apenas lo empuja)
+  awk -v d="$dur" 'BEGIN{exit !(d < 20 || d > 35)}' && { estado="REVISAR(duración)"; problemas=$((problemas+1)); }
   printf '%-45s %s  %5.1fs  %s  %s%s\n' "$n" "$estado" "$dur" "$tam" "$sync" "${largos:+  LARGOS: $largos}"
 done
 echo
