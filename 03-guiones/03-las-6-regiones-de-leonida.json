@@ -69,5 +69,13 @@
         "L20"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Leonida tiene 6 regiones: Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    }
   ]
 }

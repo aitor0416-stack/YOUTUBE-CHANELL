@@ -61,5 +61,28 @@
         "L25"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Precarga disponible desde el 9-10 de noviembre",
+      "fuente": "PlayStation Blog; Forbes",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "212 GB",
+      "fuente": "Rockstar Newswire",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "dato": "Dos actualizaciones antes de salir (13 y 16 de noviembre)",
+      "fuente": "Forbes",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "Desbloqueo a las 12 de la noche (00:00) hora local",
+      "fuente": "Infobae; Rockstar",
+      "confianza": "Cierto"
+    }
   ]
 }

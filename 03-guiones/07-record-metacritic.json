@@ -54,5 +54,24 @@
         "A12"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "99 en Metacritic con más de 100 reseñas; la mayoría 10 de 10 (80 de 109 según Forbes el 18-nov)",
+      "fuente": "Forbes; Insider Gaming; Mirror",
+      "confianza": "Cierto",
+      "url": "https://www.forbes.com/sites/paultassi/2026/11/18/the-gta-6-metacritic-review-score-is-in-and-ties-an-all-time-record/"
+    },
+    {
+      "dato": "Empata con Zelda: Ocarina of Time (1998)",
+      "fuente": "Forbes",
+      "confianza": "Cierto",
+      "url": "https://www.forbes.com/sites/paultassi/2026/11/18/the-gta-6-metacritic-review-score-is-in-and-ties-an-all-time-record/"
+    },
+    {
+      "dato": "GTA IV sacó un 98 y GTA V un 97",
+      "fuente": "Insider Gaming",
+      "confianza": "Cierto"
+    }
   ]
 }

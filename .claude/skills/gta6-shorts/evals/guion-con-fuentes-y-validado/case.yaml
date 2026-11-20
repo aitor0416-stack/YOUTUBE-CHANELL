@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: guion-con-fuentes-y-validado
+expected_outcome: |
+  Un guion JSON nuevo en 03-guiones/ que pasa herramientas/validar-guion.py sin FALLOS: título de máx. 60 caracteres con GTA 6 y emoji, gancho dicho en la primera escena, texto fonético y subtítulo bien escrito, fuentes con cada dato (99, 1998) y su confianza, descripción con pregunta 👇, créditos y hashtags.

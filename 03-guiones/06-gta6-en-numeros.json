@@ -62,5 +62,40 @@
         "A17"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "13 años desde GTA V (septiembre de 2013)",
+      "fuente": "Rockstar",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "212 GB",
+      "fuente": "Rockstar Newswire",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "dato": "79,99 dólares la edición estándar en Estados Unidos",
+      "fuente": "Tiendas de EE. UU. (Walmart, Best Buy)",
+      "confianza": "Probable"
+    },
+    {
+      "dato": "6 zonas en el mapa",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "dato": "2 protagonistas",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "dato": "2 retrasos hasta el 19 de noviembre",
+      "fuente": "Rockstar Newswire",
+      "confianza": "Cierto"
+    }
   ]
 }

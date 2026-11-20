@@ -62,5 +62,17 @@
         "L01"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Jugadores encontraron un ovni y un alien (según cuentan, congelado)",
+      "fuente": "Vídeos de jugadores en YouTube e Instagram",
+      "confianza": "Probable"
+    },
+    {
+      "dato": "En GTA 5 había un ovni sobre el monte Chiliad",
+      "fuente": "Historia de la saga",
+      "confianza": "Cierto"
+    }
   ]
 }

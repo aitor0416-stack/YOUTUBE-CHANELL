@@ -55,5 +55,13 @@
         "A17"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "La policía registra cara, ropa, coche, acompañantes; estrellas en rojo; cambiar de ropa desde el maletero de tu coche",
+      "fuente": "GamingTrend",
+      "confianza": "Cierto",
+      "url": "https://gamingtrend.com/reviews/grand-theft-auto-vi-review/"
+    }
   ]
 }

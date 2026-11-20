@@ -52,5 +52,13 @@
         "L08"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Biografía de Lucía: su padre le enseñó a pelear, cárcel de Leonida, salió por suerte",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    }
   ]
 }

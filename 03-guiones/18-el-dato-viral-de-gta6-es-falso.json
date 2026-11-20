@@ -54,5 +54,25 @@
         "A16"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "El dato viral de 1,5 millones de bajas no tiene estudio detrás",
+      "fuente": "PBS",
+      "confianza": "Cierto",
+      "url": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6"
+    },
+    {
+      "dato": "PCMag: el 8% de los jugadores adultos pensaba tomarse el día",
+      "fuente": "PBS",
+      "confianza": "Cierto",
+      "url": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6"
+    },
+    {
+      "dato": "BambooHR: peticiones de vacaciones +13% para el 19 de noviembre",
+      "fuente": "PBS",
+      "confianza": "Cierto",
+      "url": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6"
+    }
   ]
 }

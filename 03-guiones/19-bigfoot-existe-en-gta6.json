@@ -63,5 +63,23 @@
         "A12"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Jugadores han encontrado a Bigfoot en los pantanos el día de salida",
+      "fuente": "Vídeos de jugadores en YouTube, Instagram y Facebook (varias fuentes independientes)",
+      "confianza": "Probable"
+    },
+    {
+      "dato": "En GTA San Andreas (2004) Bigfoot era un mito nunca confirmado: más de 20 años",
+      "fuente": "Historia de la saga",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "Hay caimanes en los pantanos (Grassrivers)",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    }
   ]
 }

@@ -10,7 +10,8 @@ Basada en el análisis del 17-nov-2026 de los Shorts y TikToks de GTA 6 con más
 - Un tema por Short. En las listas, cada punto empieza por su número ("Uno.", "Dos."…)
 - Cierre en una frase corta con pregunta ("¿Equipo Jason o equipo Lucía?"). Sin "suscríbete" al final: hace que la gente se vaya antes
 - En pantalla **solo subtítulos abajo**: 1–2 palabras, números y nombres propios en amarillo
-- Sin spoilers de la historia. Todo dato, verificado (fuente oficial o 2 medios) antes de escribirlo
+- Sin spoilers de la historia. Todo dato, verificado (fuente oficial o 2 medios) antes de escribirlo, y apuntado en `fuentes`
+- Porcentajes pegados al número ("32%"); bloques de subtítulo de máx. 14 caracteres (el generador ya los parte)
 - `texto` como suena (Ge te a seis, Vais Siti, Yeison, Pléisteishon, Iutub); `subtitulo` como se escribe
 
 ## Fórmulas de gancho (de vídeos con 0,3–3M visitas)
@@ -42,7 +43,14 @@ Basada en el análisis del 17-nov-2026 de los Shorts y TikToks de GTA 6 con más
     {"texto": "Cinco cosas que tienes que saber antes de jugar Ge te a seis.",
      "subtitulo": "Cinco cosas que tienes que saber antes de jugar GTA 6.",
      "planos": ["A17", "A13", "A15"]}
+  ],
+  "fuentes": [
+    {"dato": "Sale el 19 de noviembre a medianoche en PS5 y Xbox Series",
+     "fuente": "Rockstar Newswire", "url": "https://www.rockstargames.com/newswire/...", "confianza": "Cierto"}
   ]
 }
 ```
+`fuentes` es obligatorio (lo revisa `herramientas/validar-guion.py` antes de generar): cada dato
+del guion con su fuente y `confianza` Cierto o Probable. Todo número de los subtítulos debe
+aparecer en algún `dato`. Una suposición no se publica.
 `gancho` no sale en el vídeo: sirve como texto de portada (miniatura) si se hace una.

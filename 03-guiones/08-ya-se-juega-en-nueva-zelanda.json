@@ -53,5 +53,23 @@
         "A16"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "En Nueva Zelanda se desbloqueó el 19 de noviembre a medianoche local",
+      "fuente": "Mirror; Sky News",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "La oficina de turismo de Nueva Zelanda bromeó con que los jugadores fueran allí",
+      "fuente": "VideoGamesChronicle",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "Las normas de Xbox piden no cambiar de región si no te has mudado",
+      "fuente": "Pure Xbox",
+      "confianza": "Cierto",
+      "url": "https://www.purexbox.com/news/2026/11/xbox-fans-urge-caution-over-new-zealand-trick-for-gta-6-while-others-say-its-a-non-issue"
+    }
   ]
 }

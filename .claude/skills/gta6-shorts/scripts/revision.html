@@ -1,0 +1,36 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><link rel="icon" href="data:,"><title>Revisión Shorts</title>
+<style>body{margin:0;background:#111;color:#eee;font:16px sans-serif}
+.v{display:inline-block;margin:8px;vertical-align:top;text-align:center}
+video{width:360px;height:640px;background:#000}
+.cue{width:360px;min-height:40px;font-weight:bold;color:#0f0}</style></head><body>
+<div id="lista"></div>
+<script>
+// Página de revisión para Playwright. Los vídeos se pasan en la URL:
+//   index.html?v=19-bigfoot-existe-en-gta6,20-cuidado-al-abrir-maleteros
+// Carga v/<nombre>.webm (este Chromium no lee H.264) con su pista v/<nombre>.vtt.
+// Date.now() en la URL evita que el navegador enseñe una versión vieja del vídeo (pasó una vez).
+const nombres=(new URLSearchParams(location.search).get("v")||"").split(",").filter(Boolean);
+const ext=new URLSearchParams(location.search).get("ext")||"webm";
+for(const n of nombres){
+  const d=document.createElement("div");d.className="v";
+  d.innerHTML=`<div>${n}</div><video id="${n}" muted preload="auto" src="v/${n}.${ext}?${Date.now()}"><track default kind="subtitles" srclang="es" src="v/${n}.vtt?${Date.now()}"></video><div class="cue" id="cue-${n}"></div>`;
+  document.getElementById("lista").appendChild(d);
+}
+// en verde, el texto de la pista activa (para comparar con el subtítulo quemado en una captura)
+setInterval(()=>{for(const n of nombres){const v=document.getElementById(n);const t=v.textTracks[0];
+  if(t){t.mode="hidden";const c=t.activeCues;document.getElementById("cue-"+n).textContent=c&&c.length?c[0].text:"";}}},50);
+
+// Salta a un segundo sin colgarse si el vídeo no responde (máx. 2 s).
+async function irA(n,seg){const v=document.getElementById(n);v.currentTime=seg;
+  const ok=await Promise.race([new Promise(r=>v.addEventListener("seeked",()=>r(true),{once:true})),new Promise(r=>setTimeout(()=>r(false),2000))]);
+  await new Promise(r=>setTimeout(r,100));const t=v.textTracks[0];
+  return {ok,cue:t.activeCues&&t.activeCues.length?t.activeCues[0].text:""};}
+
+// Revisa UN vídeo: carga, tamaño, errores y si hay subtítulo activo en cada segundo.
+// Llamar una vez por vídeo: Playwright corta cada evaluate a los 60 s.
+async function revisar(n){const v=document.getElementById(n);
+  if(v.readyState<1) await Promise.race([new Promise(r=>v.addEventListener("loadedmetadata",r,{once:true})),new Promise(r=>setTimeout(r,4000))]);
+  let muestras=0,vacias=0,saltos_fallidos=0;const t0=Date.now();
+  for(let s=0.5;s<v.duration-0.2&&Date.now()-t0<45000;s+=1){const x=await irA(n,s);muestras++;if(!x.cue)vacias++;if(!x.ok)saltos_fallidos++;}
+  return {n,dur:+(v.duration||0).toFixed(2),w:v.videoWidth,h:v.videoHeight,error:v.error&&v.error.code,muestras,vacias,saltos_fallidos};}
+</script></body></html>

@@ -53,5 +53,22 @@
         "L16"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Más de 11 millones de reservas (11,27 M) y unos 1.100 millones de dólares, estimación de Sensor Tower: 1.000 millones antes de salir",
+      "fuente": "Sensor Tower vía Al Jazeera y BigGo Finance",
+      "confianza": "Probable"
+    },
+    {
+      "dato": "GTA 5 tardó 3 días en llegar a 1.000 millones",
+      "fuente": "Take-Two / Guinness",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "Bank of America: necesita 1.900 millones en el lanzamiento",
+      "fuente": "Yahoo Finance",
+      "confianza": "Cierto"
+    }
   ]
 }

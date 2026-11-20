@@ -47,5 +47,19 @@
         "A17"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Remote: peticiones de días libres +32% en el mundo; Italia +91%, luego India, Irlanda y España",
+      "fuente": "Remote vía El Universal",
+      "confianza": "Probable",
+      "url": "https://www.eluniversal.com.mx/tendencias/el-fenomeno-detras-de-gta-vi-expertos-preven-ausencias-laborales-y-analizan-el-exito-del-videojuego/"
+    },
+    {
+      "dato": "Encuesta PCMag/YouGov: 12,5 millones de jugadores en EE. UU. cambian planes",
+      "fuente": "PBS; El Universal",
+      "confianza": "Cierto",
+      "url": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6"
+    }
   ]
 }

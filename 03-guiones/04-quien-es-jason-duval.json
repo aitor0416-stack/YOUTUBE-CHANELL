@@ -53,5 +53,13 @@
         "B23"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Biografía de Jason: creció entre estafadores, ejército, Leonida Keys, trabajaba para traficantes locales",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    }
   ]
 }

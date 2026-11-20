@@ -66,5 +66,36 @@
         "L20"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Sale el 19 de noviembre de 2026 a medianoche (hora local) en PS5 y Xbox Series; sin versión de PC anunciada",
+      "fuente": "Rockstar Newswire; Infobae; Mirror",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "dato": "Ocupa hasta 212 GB",
+      "fuente": "Rockstar Newswire (pre-load)",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10"
+    },
+    {
+      "dato": "Vice City, versión de Miami, en el estado de Leonida inspirado en Florida",
+      "fuente": "Web oficial de Rockstar",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "dato": "Lucía, primera protagonista mujer de un GTA en 3D",
+      "fuente": "Web oficial de Rockstar + prensa",
+      "confianza": "Cierto",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "dato": "El tráiler 1 batió el récord de visitas en 24 horas para un tráiler de videojuego en YouTube",
+      "fuente": "Guinness World Records",
+      "confianza": "Cierto"
+    }
   ]
 }

@@ -1,0 +1,39 @@
+# Palabras que no pueden salir en un guion (texto, subtítulos, título ni descripción).
+# Las lee herramientas/validar-guion.py. Una por línea. Se compara por raíz:
+# "filtra" también pilla "filtrado", "filtración"... Para una palabra exacta, empieza con "=".
+# Una frase con espacios se busca tal cual (sin distinguir mayúsculas).
+# Sección [gancho]: además prohibidas en la PRIMERA escena (sin violencia en los primeros 7 s).
+
+# --- leaks y material no oficial (Rockstar los retira y nos quita credibilidad) ---
+leak
+filtra
+datamin
+=insider
+
+# --- spoilers de historia ---
+spoiler
+el final del juego
+final de la historia
+muere
+=mueren
+traiciona
+
+# --- cosas que YouTube penaliza o que nos meten en líos ---
+gratis
+pirata
+=crack
+descarga ilegal
+dinero infinito
+=hack
+=hackear
+
+[gancho]
+mata
+=matar
+asesin
+dispar
+tiroteo
+sangre
+=armas
+=pistola
+cadáver

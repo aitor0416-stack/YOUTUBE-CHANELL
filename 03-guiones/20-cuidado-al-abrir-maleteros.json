@@ -70,5 +70,13 @@
         "B19"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "En maleteros de coches aparcados aparecen serpientes que atacan",
+      "fuente": "WikiGames; vídeos de jugadores en YouTube e Instagram",
+      "confianza": "Probable",
+      "url": "https://wikigames.net/grand-theft-auto-vi-trunk-pet-jumpscare/"
+    }
   ]
 }

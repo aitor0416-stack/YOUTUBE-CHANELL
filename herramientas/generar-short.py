@@ -27,6 +27,7 @@ Variables de entorno:
   TRAILERS_DIR     carpeta con launch.mp4, t1.mp4, t2.mp4 (tráileres oficiales en 4K)
   VOZ_REFERENCIA   opcional: wav de la voz de Aitor → la voz se convierte a su timbre (FreeVC)
   FREEVC_DIR       carpeta del modelo FreeVC (necesaria con VOZ_REFERENCIA)
+  SIN_VALIDAR=1    salta la revisión previa del guion (herramientas/validar-guion.py); solo para pruebas
 """
 import json
 import os
@@ -341,8 +342,21 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 # ---------- principal ----------
 
+def validar_antes(guion_path):
+    """Pasa herramientas/validar-guion.py: si el guion tiene fallos (sin fuentes, palabra prohibida,
+    plano inexistente...) no se gasta tiempo en generar. SIN_VALIDAR=1 lo salta (solo para pruebas)."""
+    if os.environ.get("SIN_VALIDAR"):
+        return
+    r = subprocess.run([sys.executable, os.path.join(RAIZ, "herramientas", "validar-guion.py"), guion_path],
+                       capture_output=True, text=True)
+    print(r.stdout.strip())
+    if r.returncode:
+        sys.exit("El guion no pasa la revisión: corrige los FALLOS de arriba antes de generar.")
+
+
 def main():
     guion_path, salida = sys.argv[1], sys.argv[2]
+    validar_antes(guion_path)
     with open(guion_path, encoding="utf-8") as f:
         g = json.load(f)
     escenas = g["escenas"]

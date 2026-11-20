@@ -54,5 +54,22 @@
         "L13"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Sale en PS5 y Xbox Series (también Series S); Rockstar no ha dado fecha de PC",
+      "fuente": "Mirror; Rockstar",
+      "confianza": "Cierto"
+    },
+    {
+      "dato": "Algunos medios hablan de 2027 para PC",
+      "fuente": "Mirror (informes de la industria)",
+      "confianza": "Probable"
+    },
+    {
+      "dato": "GTA 5 llegó a PC unos 19 meses después (año y medio)",
+      "fuente": "Rockstar",
+      "confianza": "Cierto"
+    }
   ]
 }

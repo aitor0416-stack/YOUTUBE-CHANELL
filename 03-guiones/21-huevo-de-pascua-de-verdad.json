@@ -62,5 +62,12 @@
         "A07"
       ]
     }
+  ],
+  "fuentes": [
+    {
+      "dato": "Hay un huevo de Pascua literal en lo alto de la torre más alta",
+      "fuente": "Publicaciones de jugadores en Instagram y YouTube",
+      "confianza": "Probable"
+    }
   ]
 }
